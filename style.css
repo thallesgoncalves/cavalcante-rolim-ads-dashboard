@@ -3,71 +3,75 @@
 }
 
 .viz-root {
-  --surface-1:       #ffffff;
-  --page-plane:       #f7f4ee;
-  --text-primary:     #141414;
-  --text-secondary:   #5b5750;
-  --text-muted:       #8c8780;
-  --gridline:         #eae4d8;
-  --baseline:         #d8d2c2;
-  --border:           rgba(20,20,20,0.09);
-  --accent:           #f0bb55; /* burnt/pastel yellow */
-  --accent-ink:       #141414; /* black text on the yellow accent */
-  --series-spend:     #d89b2e; /* burnt gold */
-  --series-leads:     #141414; /* black */
-  --status-good:      #0ca30c;
-  --status-critical:  #d03b3b;
-  --funnel-1: #f6d999;
-  --funnel-2: #efc066;
-  --funnel-3: #e0a233;
-  --funnel-4: #c98418;
-  --shadow: 0 1px 2px rgba(20,20,20,0.04), 0 8px 24px rgba(20,20,20,0.06);
+  /* Cavalcante & Rolim institutional palette: #1D332B (verde escuro),
+     #EFECE8 (creme), #DAD5C8 (bege), #AA805B (marrom), #EACF8B (dourado).
+     Tints/shades below are derived from these five for gradients, chart
+     series and status colors that the base palette doesn't cover directly. */
+  --surface-1:       #EFECE8; /* creme — superfície dos cards */
+  --page-plane:       #DAD5C8; /* bege — fundo da página */
+  --text-primary:     #1D332B; /* verde escuro — texto principal */
+  --text-secondary:   #AA805B; /* marrom — texto secundário */
+  --text-muted:       rgba(29,51,43,0.55);
+  --gridline:         rgba(29,51,43,0.10);
+  --baseline:         rgba(29,51,43,0.22);
+  --border:           rgba(29,51,43,0.14);
+  --accent:           #EACF8B; /* dourado */
+  --accent-ink:       #1D332B; /* verde escuro sobre o dourado */
+  --series-spend:     #AA805B; /* marrom */
+  --series-leads:     #1D332B; /* verde escuro */
+  --status-good:      #3F7A55;
+  --status-critical:  #B5453A;
+  --funnel-1: #EACF8B;
+  --funnel-2: #CAA773;
+  --funnel-3: #AA805B;
+  --funnel-4: #63593F;
+  --shadow: 0 1px 2px rgba(29,51,43,0.06), 0 8px 24px rgba(29,51,43,0.08);
 }
 
 @media (prefers-color-scheme: dark) {
   :root:where(:not([data-theme="light"])) .viz-root {
     color-scheme: dark;
-    --surface-1:       #1e1b17;
-    --page-plane:       #141210;
-    --text-primary:     #ffffff;
-    --text-secondary:   #cfc9bc;
-    --text-muted:       #948f84;
-    --gridline:         #35312a;
-    --baseline:         #4a4539;
-    --border:           rgba(255,255,255,0.10);
-    --accent:           #f0bb55;
-    --accent-ink:       #141414;
-    --series-spend:     #f0bb55;
-    --series-leads:     #f0eee8;
-    --status-good:      #0ca30c;
-    --status-critical:  #e66767;
-    --funnel-1: #6b5122;
-    --funnel-2: #977321;
-    --funnel-3: #c99a2e;
-    --funnel-4: #f0bb55;
+    --surface-1:       #1D332B; /* verde escuro — superfície dos cards */
+    --page-plane:       #152420; /* verde ainda mais escuro — fundo da página */
+    --text-primary:     #EFECE8; /* creme — texto principal */
+    --text-secondary:   #DAD5C8; /* bege — texto secundário */
+    --text-muted:       rgba(239,236,232,0.6);
+    --gridline:         rgba(239,236,232,0.12);
+    --baseline:         rgba(239,236,232,0.28);
+    --border:           rgba(239,236,232,0.14);
+    --accent:           #EACF8B;
+    --accent-ink:       #1D332B;
+    --series-spend:     #EACF8B;
+    --series-leads:     #EFECE8;
+    --status-good:      #5FAE7D;
+    --status-critical:  #D97267;
+    --funnel-1: #5E4632;
+    --funnel-2: #806044;
+    --funnel-3: #AA805B;
+    --funnel-4: #EACF8B;
     --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px rgba(0,0,0,0.35);
   }
 }
 :root[data-theme="dark"] .viz-root {
   color-scheme: dark;
-  --surface-1:       #1e1b17;
-  --page-plane:       #141210;
-  --text-primary:     #ffffff;
-  --text-secondary:   #cfc9bc;
-  --text-muted:       #948f84;
-  --gridline:         #35312a;
-  --baseline:         #4a4539;
-  --border:           rgba(255,255,255,0.10);
-  --accent:           #f0bb55;
-  --accent-ink:       #141414;
-  --series-spend:     #f0bb55;
-  --series-leads:     #f0eee8;
-  --status-good:      #0ca30c;
-  --status-critical:  #e66767;
-  --funnel-1: #6b5122;
-  --funnel-2: #977321;
-  --funnel-3: #c99a2e;
-  --funnel-4: #f0bb55;
+  --surface-1:       #1D332B;
+  --page-plane:       #152420;
+  --text-primary:     #EFECE8;
+  --text-secondary:   #DAD5C8;
+  --text-muted:       rgba(239,236,232,0.6);
+  --gridline:         rgba(239,236,232,0.12);
+  --baseline:         rgba(239,236,232,0.28);
+  --border:           rgba(239,236,232,0.14);
+  --accent:           #EACF8B;
+  --accent-ink:       #1D332B;
+  --series-spend:     #EACF8B;
+  --series-leads:     #EFECE8;
+  --status-good:      #5FAE7D;
+  --status-critical:  #D97267;
+  --funnel-1: #5E4632;
+  --funnel-2: #806044;
+  --funnel-3: #AA805B;
+  --funnel-4: #EACF8B;
   --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px rgba(0,0,0,0.35);
 }
 
