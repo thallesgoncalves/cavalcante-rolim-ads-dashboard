@@ -1,0 +1,45 @@
+name: Update campaign data
+
+on:
+  schedule:
+    # 09:00 America/Maceio (UTC-3) = 12:00 UTC
+    - cron: "0 12 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch campaign data from Meta Marketing API
+        env:
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+        run: node scripts/fetch_data.js
+
+      - name: Fetch leads from CV CRM
+        env:
+          CVCRM_DOMAIN: ${{ secrets.CVCRM_DOMAIN }}
+          CVCRM_EMAIL: ${{ secrets.CVCRM_EMAIL }}
+          CVCRM_TOKEN: ${{ secrets.CVCRM_TOKEN }}
+        run: node scripts/fetch_cvcrm.js
+
+      - name: Fetch channels and creatives from Meta Marketing API
+        env:
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+        run: node scripts/fetch_creatives.js
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/campaigns.json data/cvcrm.json data/creatives.json
+          git diff --quiet --cached || git commit -m "chore: atualizar dados de campanhas"
+          git push

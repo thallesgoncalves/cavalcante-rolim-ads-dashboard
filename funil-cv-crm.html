@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cavalcante &amp; Rolim — Funil CV CRM</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="viz-root" data-theme="">
+<div class="app-shell">
+
+  <aside class="sidebar">
+    <div class="sidebar-logo-text" title="Cavalcante &amp; Rolim">C&amp;R</div>
+    <nav class="sidebar-nav" aria-label="Seções">
+      <button type="button" data-scroll="#overview" class="active" title="Visão geral">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 11.5 12 4l8 7.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 10v9a1 1 0 0 0 1 1h3v-6h4v6h3a1 1 0 0 0 1-1v-9" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <button type="button" data-scroll="#funnel-stage" title="Funil">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 5h16l-6 8v6l-4-2v-4L4 5Z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <button type="button" data-scroll="#team" title="Equipe">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6" stroke-linecap="round"/><circle cx="17" cy="8.5" r="2.4"/><path d="M15.5 14.2c2.5.4 4.5 2.6 4.5 5.3" stroke-linecap="round"/></svg>
+      </button>
+      <button type="button" data-scroll="#products" title="Empreendimentos">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 21V8l8-4 8 4v13" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 21v-6h6v6M9 11h.01M15 11h.01M9 15h.01M15 15h.01" stroke-linecap="round"/></svg>
+      </button>
+    </nav>
+    <div class="sidebar-bottom">
+      <button type="button" title="Ajuda">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8.5"/><path d="M9.6 9.3a2.4 2.4 0 1 1 3.4 2.2c-.8.4-1 .8-1 1.6" stroke-linecap="round"/><circle cx="12" cy="16.6" r=".2" fill="currentColor"/></svg>
+      </button>
+    </div>
+  </aside>
+
+  <div class="main">
+
+    <header class="topbar">
+      <div class="topbar-brand">
+        <span class="brand-name">Cavalcante &amp; Rolim</span>
+      </div>
+      <div class="topbar-actions">
+        <div class="profile-chip">
+          <div class="profile-text">
+            <div class="profile-name">Cavalcante &amp; Rolim</div>
+            <div class="profile-sub">CRM · CV CRM</div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav class="page-tabs" aria-label="Páginas">
+      <a href="index.html" class="page-tab">Dashboard</a>
+      <a href="funil-cv-crm.html" class="page-tab active">Funil CV CRM</a>
+      <a href="canais-criativos.html" class="page-tab">Canais &amp; Criativos</a>
+    </nav>
+
+    <section class="greeting" id="overview">
+      <h1 id="greeting-text">Bom dia</h1>
+      <p class="subtitle">Funil de vendas do CV CRM — do lead novo à venda realizada.</p>
+    </section>
+
+    <div class="filters" role="group" aria-label="Filtros">
+      <div class="filter-group" id="range-filter" role="group" aria-label="Período">
+        <button type="button" data-range="7">7 dias</button>
+        <button type="button" data-range="30" class="active">30 dias</button>
+        <button type="button" data-range="90">90 dias</button>
+        <button type="button" data-range="month">Este mês</button>
+        <button type="button" data-range="custom">Personalizado</button>
+      </div>
+      <div class="custom-range" id="custom-range" hidden>
+        <label>De <input type="date" id="date-from" /></label>
+        <label>Até <input type="date" id="date-to" /></label>
+        <button type="button" id="apply-custom-range">Aplicar</button>
+      </div>
+      <span class="muted" id="updated-at">Carregando…</span>
+    </div>
+
+    <section class="kpi-grid" aria-label="Indicadores principais">
+      <div class="kpi-hero" id="kpi-hero"></div>
+      <div class="kpi-secondary" id="kpi-secondary"></div>
+    </section>
+
+    <section class="funnel-card" id="funnel-stage">
+      <div class="chart-head">
+        <h2>Funil por situação (CV CRM)</h2>
+        <span class="muted">Distribuição dos leads pelas situações cadastradas no CV CRM</span>
+      </div>
+      <div class="funnel-distribution">
+        <div class="funnel-seg-bar" id="stage-seg-bar"></div>
+        <div class="funnel-legend" id="stage-legend"></div>
+      </div>
+    </section>
+
+    <div class="charts-row" id="team">
+      <section class="table-card">
+        <div class="table-head">
+          <div class="table-head-title">
+            <h2>Performance por corretor</h2>
+            <span class="muted" id="seller-count"></span>
+          </div>
+        </div>
+        <div class="table-scroll">
+          <table id="seller-table">
+            <thead>
+              <tr>
+                <th data-sort="seller">Corretor</th>
+                <th data-sort="total" class="num sorted-desc">Leads</th>
+                <th data-sort="open" class="num">Em andamento</th>
+                <th data-sort="won" class="num">Vendas</th>
+                <th data-sort="conversion" class="num">Conversão</th>
+              </tr>
+            </thead>
+            <tbody id="seller-tbody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="chart-card">
+        <div class="chart-head">
+          <h2>Leads por origem</h2>
+        </div>
+        <div id="source-bars" class="rank-list"></div>
+      </section>
+    </div>
+
+    <section class="table-card" id="products">
+      <div class="table-head">
+        <div class="table-head-title">
+          <h2>Leads por empreendimento</h2>
+          <span class="muted" id="product-count"></span>
+        </div>
+      </div>
+      <div class="table-scroll">
+        <table id="product-table">
+          <thead>
+            <tr>
+              <th data-sort="product">Empreendimento</th>
+              <th data-sort="total" class="num sorted-desc">Leads</th>
+              <th data-sort="won" class="num">Vendas</th>
+              <th data-sort="sold" class="num">Valor vendido</th>
+            </tr>
+          </thead>
+          <tbody id="product-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer class="page-footer">
+      <span class="muted">Fonte: CV CRM · atualizado automaticamente 1×/dia via GitHub Actions</span>
+    </footer>
+
+  </div>
+</div>
+</div>
+<script src="common.js"></script>
+<script src="funil.js"></script>
+</body>
+</html>

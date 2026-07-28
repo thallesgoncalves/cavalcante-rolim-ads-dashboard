@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cavalcante &amp; Rolim — Canais &amp; Criativos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="viz-root" data-theme="">
+<div class="app-shell">
+
+  <aside class="sidebar">
+    <div class="sidebar-logo-text" title="Cavalcante &amp; Rolim">C&amp;R</div>
+    <nav class="sidebar-nav" aria-label="Seções">
+      <button type="button" data-scroll="#overview" class="active" title="Visão geral">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 11.5 12 4l8 7.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 10v9a1 1 0 0 0 1 1h3v-6h4v6h3a1 1 0 0 0 1-1v-9" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <button type="button" data-scroll="#channels" title="Canais">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z" stroke-linejoin="round"/></svg>
+      </button>
+      <button type="button" data-scroll="#creatives" title="Criativos">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="m3 15 5-5 4 4 3-3 6 6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="8" cy="8.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+      </button>
+      <button type="button" data-scroll="#forms" title="Formulários">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5" stroke-linecap="round"/></svg>
+      </button>
+    </nav>
+    <div class="sidebar-bottom">
+      <button type="button" title="Ajuda">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8.5"/><path d="M9.6 9.3a2.4 2.4 0 1 1 3.4 2.2c-.8.4-1 .8-1 1.6" stroke-linecap="round"/><circle cx="12" cy="16.6" r=".2" fill="currentColor"/></svg>
+      </button>
+    </div>
+  </aside>
+
+  <div class="main">
+
+    <header class="topbar">
+      <div class="topbar-brand">
+        <span class="brand-name">Cavalcante &amp; Rolim</span>
+      </div>
+      <div class="topbar-actions">
+        <div class="profile-chip">
+          <div class="profile-text">
+            <div class="profile-name">Cavalcante &amp; Rolim</div>
+            <div class="profile-sub">Meta Ads</div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav class="page-tabs" aria-label="Páginas">
+      <a href="index.html" class="page-tab">Dashboard</a>
+      <a href="funil-cv-crm.html" class="page-tab">Funil CV CRM</a>
+      <a href="canais-criativos.html" class="page-tab active">Canais &amp; Criativos</a>
+    </nav>
+
+    <section class="greeting" id="overview">
+      <h1 id="greeting-text">Bom dia</h1>
+      <p class="subtitle">Onde o investimento performa melhor — canal, criativo e formulário.</p>
+    </section>
+
+    <div class="filters" role="group" aria-label="Filtros">
+      <div class="filter-group" id="range-filter" role="group" aria-label="Período">
+        <button type="button" data-range="7">7 dias</button>
+        <button type="button" data-range="30" class="active">30 dias</button>
+        <button type="button" data-range="90">90 dias</button>
+        <button type="button" data-range="month">Este mês</button>
+        <button type="button" data-range="custom">Personalizado</button>
+      </div>
+      <div class="custom-range" id="custom-range" hidden>
+        <label>De <input type="date" id="date-from" /></label>
+        <label>Até <input type="date" id="date-to" /></label>
+        <button type="button" id="apply-custom-range">Aplicar</button>
+      </div>
+      <span class="muted" id="updated-at">Carregando…</span>
+    </div>
+
+    <section class="kpi-grid" aria-label="Indicadores principais">
+      <div class="kpi-hero" id="kpi-hero"></div>
+      <div class="kpi-secondary" id="kpi-secondary"></div>
+    </section>
+
+    <section class="table-card" id="channels">
+      <div class="table-head">
+        <div class="table-head-title">
+          <h2>Canais e posicionamentos</h2>
+          <span class="muted" id="channel-count"></span>
+        </div>
+      </div>
+      <div class="table-scroll">
+        <table id="channel-table">
+          <thead>
+            <tr>
+              <th data-sort="label">Canal</th>
+              <th data-sort="spend" class="num sorted-desc">Investimento</th>
+              <th data-sort="impressions" class="num">Impressões</th>
+              <th data-sort="clicks" class="num">Cliques</th>
+              <th data-sort="leads" class="num">Leads</th>
+              <th data-sort="cost_per_lead" class="num">Custo/Lead</th>
+            </tr>
+          </thead>
+          <tbody id="channel-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="funnel-card" id="creatives">
+      <div class="chart-head">
+        <h2>Criativos</h2>
+        <span class="muted" id="creative-count"></span>
+      </div>
+      <div class="creative-grid" id="creative-grid"></div>
+    </section>
+
+    <section class="table-card" id="forms">
+      <div class="table-head">
+        <div class="table-head-title">
+          <h2>Formulários (por criativo)</h2>
+          <span class="muted">A API não libera o nome do formulário sem permissão adicional — agrupado pelo ID do formulário e pelos anúncios que o usam</span>
+        </div>
+      </div>
+      <div class="table-scroll">
+        <table id="form-table">
+          <thead>
+            <tr>
+              <th>Formulário</th>
+              <th data-sort="spend" class="num sorted-desc">Investimento</th>
+              <th data-sort="leads" class="num">Leads</th>
+              <th data-sort="cost_per_lead" class="num">Custo/Lead</th>
+            </tr>
+          </thead>
+          <tbody id="form-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer class="page-footer">
+      <span class="muted">Fonte: Meta Marketing API · atualizado automaticamente 1×/dia via GitHub Actions</span>
+    </footer>
+
+  </div>
+</div>
+</div>
+<script src="common.js"></script>
+<script src="canais.js"></script>
+</body>
+</html>

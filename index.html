@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cavalcante &amp; Rolim — Dashboard de Campanhas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="viz-root" data-theme="">
+<div class="app-shell">
+
+  <aside class="sidebar">
+    <div class="sidebar-logo-text" title="Cavalcante &amp; Rolim">C&amp;R</div>
+    <nav class="sidebar-nav" aria-label="Seções">
+      <button type="button" data-scroll="#overview" class="active" title="Visão geral">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 11.5 12 4l8 7.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 10v9a1 1 0 0 0 1 1h3v-6h4v6h3a1 1 0 0 0 1-1v-9" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <button type="button" data-scroll="#charts" title="Gráficos">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 19V10M12 19V5M19 19v-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <button type="button" data-scroll="#table" title="Campanhas">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="5" width="16" height="14" rx="2"/><path d="M4 10h16M9 10v9" stroke-linecap="round"/></svg>
+      </button>
+      <button type="button" data-scroll="#funnel" title="Funil de vendas">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 5h16l-6 8v6l-4-2v-4L4 5Z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <button type="button" data-scroll="#roi" title="ROI">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8.5"/><path d="M12 7v10M9 9.5c0-1.4 1.3-2.5 3-2.5s3 1 3 2.3-1.3 1.9-3 2.2-3 .9-3 2.2S10.6 16 12 16s3-.9 3-2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </nav>
+    <div class="sidebar-bottom">
+      <button type="button" title="Ajuda">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8.5"/><path d="M9.6 9.3a2.4 2.4 0 1 1 3.4 2.2c-.8.4-1 .8-1 1.6" stroke-linecap="round"/><circle cx="12" cy="16.6" r=".2" fill="currentColor"/></svg>
+      </button>
+    </div>
+  </aside>
+
+  <div class="main">
+
+    <header class="topbar">
+      <div class="topbar-brand">
+        <span class="brand-name">Cavalcante &amp; Rolim</span>
+      </div>
+      <div class="topbar-actions">
+        <label class="search-pill">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5" stroke-linecap="round"/></svg>
+          <span class="visually-hidden">Buscar campanha</span>
+          <input type="search" id="campaign-search" placeholder="Buscar campanha…" />
+        </label>
+        <div class="profile-chip">
+          <div class="profile-text">
+            <div class="profile-name">Cavalcante &amp; Rolim</div>
+            <div class="profile-sub">Meta Ads</div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav class="page-tabs" aria-label="Páginas">
+      <a href="index.html" class="page-tab active">Dashboard</a>
+      <a href="funil-cv-crm.html" class="page-tab">Funil CV CRM</a>
+      <a href="canais-criativos.html" class="page-tab">Canais &amp; Criativos</a>
+    </nav>
+
+    <section class="greeting" id="overview">
+      <h1 id="greeting-text">Bom dia</h1>
+      <p class="subtitle">Acompanhe a performance das campanhas de Meta Ads.</p>
+    </section>
+
+    <div class="filters" role="group" aria-label="Filtros">
+      <div class="filter-group" id="range-filter" role="group" aria-label="Período">
+        <button type="button" data-range="7">7 dias</button>
+        <button type="button" data-range="30" class="active">30 dias</button>
+        <button type="button" data-range="90">90 dias</button>
+        <button type="button" data-range="month">Este mês</button>
+        <button type="button" data-range="custom">Personalizado</button>
+      </div>
+      <div class="custom-range" id="custom-range" hidden>
+        <label>De <input type="date" id="date-from" /></label>
+        <label>Até <input type="date" id="date-to" /></label>
+        <button type="button" id="apply-custom-range">Aplicar</button>
+      </div>
+      <label class="filter-select">
+        <span class="visually-hidden">Conta</span>
+        <select id="account-filter">
+          <option value="all">Todas as contas</option>
+        </select>
+      </label>
+      <span class="muted" id="updated-at">Carregando…</span>
+    </div>
+
+    <section class="kpi-grid" aria-label="Indicadores principais">
+      <div class="kpi-hero" id="kpi-hero">
+        <!-- hero tile injected here -->
+      </div>
+      <div class="kpi-secondary" id="kpi-secondary">
+        <!-- secondary tiles injected here -->
+      </div>
+    </section>
+
+    <section class="charts-row" id="charts">
+      <div class="chart-card">
+        <div class="chart-head">
+          <h2>Investimento por dia</h2>
+        </div>
+        <div class="chart-wrap" id="chart-spend"></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-head">
+          <h2>Leads por dia</h2>
+        </div>
+        <div class="chart-wrap" id="chart-leads"></div>
+      </div>
+    </section>
+
+    <section class="funnel-card" id="funnel">
+      <div class="chart-head">
+        <h2>Funil de Vendas (CV CRM)</h2>
+        <span class="muted" id="funnel-updated"></span>
+      </div>
+      <div class="filters filters-compact" role="group" aria-label="Período do CRM">
+        <div class="filter-group" id="crm-range-filter" role="group" aria-label="Período do CRM">
+          <button type="button" data-range="7">7 dias</button>
+          <button type="button" data-range="30" class="active">30 dias</button>
+          <button type="button" data-range="90">90 dias</button>
+          <button type="button" data-range="month">Este mês</button>
+          <button type="button" data-range="custom">Personalizado</button>
+        </div>
+        <div class="custom-range" id="crm-custom-range" hidden>
+          <label>De <input type="date" id="crm-date-from" /></label>
+          <label>Até <input type="date" id="crm-date-to" /></label>
+          <button type="button" id="crm-apply-custom-range">Aplicar</button>
+        </div>
+      </div>
+      <div class="kpi-secondary" id="funnel-kpis"></div>
+      <div class="funnel-distribution">
+        <div class="funnel-seg-bar" id="funnel-seg-bar"></div>
+        <div class="funnel-legend" id="funnel-legend"></div>
+      </div>
+    </section>
+
+    <section class="roi-card" id="roi">
+      <div class="chart-head">
+        <h2>ROI — Anúncios × Negócios Fechados</h2>
+        <span class="muted">Estimativa de comissão sobre o valor de venda · usa o período do CRM acima</span>
+      </div>
+      <p class="muted" id="roi-caveat" style="margin: 0 0 12px;"></p>
+      <div class="roi-grid" id="roi-grid"></div>
+    </section>
+
+    <section class="table-card" id="table">
+      <div class="table-head">
+        <div class="table-head-title">
+          <h2>Campanhas</h2>
+          <span class="muted" id="table-count"></span>
+        </div>
+      </div>
+      <div class="table-scroll">
+        <table id="campaign-table">
+          <thead>
+            <tr>
+              <th data-sort="account">Conta</th>
+              <th data-sort="campaign">Campanha</th>
+              <th data-sort="spend" class="num sorted-desc">Investimento</th>
+              <th data-sort="impressions" class="num">Impressões</th>
+              <th data-sort="clicks" class="num">Cliques</th>
+              <th data-sort="ctr" class="num">CTR</th>
+              <th data-sort="leads" class="num">Leads</th>
+              <th data-sort="cost_per_lead" class="num">Custo/Lead</th>
+            </tr>
+          </thead>
+          <tbody id="campaign-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer class="page-footer">
+      <span class="muted">Fonte: Meta Marketing API + CV CRM · atualizado automaticamente 1×/dia via GitHub Actions</span>
+    </footer>
+
+  </div>
+</div>
+</div>
+<script src="common.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
