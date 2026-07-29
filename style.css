@@ -138,18 +138,6 @@ body {
   display: block;
   object-fit: cover;
 }
-.sidebar-logo-text {
-  width: 36px; height: 36px;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--text-primary);
-  color: var(--surface-1);
-  font-weight: 800;
-  font-size: 12px;
-  letter-spacing: -0.02em;
-}
 .sidebar-nav {
   display: flex;
   flex-direction: column;
