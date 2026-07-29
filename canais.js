@@ -152,11 +152,21 @@
       }));
   }
 
+  const TOP_CREATIVES = 8;
+
   const PLACEHOLDER_ICON = `<div class="creative-thumb-placeholder"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="m3 15 5-5 4 4 3-3 6 6"/><circle cx="8" cy="8.5" r="1.2" fill="currentColor" stroke="none"/></svg></div>`;
 
   function renderCreatives(rows) {
-    const ads = aggregateAds(rows).sort((a, b) => b.spend - a.spend).slice(0, 18);
-    document.getElementById("creative-count").textContent = `Top ${ads.length} por investimento no período`;
+    // Only lead-gen campaigns (Meta objective OUTCOME_LEADS, tagged as
+    // is_lead_gen by fetch_creatives.js), ranked by lowest cost per lead —
+    // ads with zero leads in the period have no cost/lead and are excluded.
+    const leadGenRows = rows.filter((r) => r.is_lead_gen);
+    const ads = aggregateAds(leadGenRows)
+      .filter((a) => a.cost_per_lead != null)
+      .sort((a, b) => a.cost_per_lead - b.cost_per_lead)
+      .slice(0, TOP_CREATIVES);
+    document.getElementById("creative-count").textContent =
+      `Top ${ads.length} por custo/lead · campanhas de captação de leads`;
     document.getElementById("creative-grid").innerHTML = ads
       .map((a) => {
         const thumb = creatives[a.ad_id] && creatives[a.ad_id].thumbnail_url;

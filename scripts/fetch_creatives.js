@@ -16,7 +16,7 @@ if (!TOKEN) {
 
 const API_VERSION = "v21.0";
 const DAYS_BACK = 90;
-const TOP_CREATIVES_WITH_THUMB = 40;
+const LEAD_OBJECTIVE = "OUTCOME_LEADS";
 
 const AD_ACCOUNTS = [
   { id: "1765245617422908", name: "Cavalcante & Rolim - CA 01" },
@@ -54,10 +54,23 @@ function leadsFromActions(actions) {
   return byType.get("lead") || 0;
 }
 
-async function fetchAdRows(account, since, until) {
+async function fetchCampaignObjectives(account) {
+  const params = new URLSearchParams({
+    fields: "id,objective",
+    limit: "500",
+    access_token: TOKEN,
+  });
+  const url = `https://graph.facebook.com/${API_VERSION}/act_${account.id}/campaigns?${params.toString()}`;
+  const rows = await fetchAllPages(url);
+  const objectiveById = new Map();
+  for (const c of rows) objectiveById.set(c.id, c.objective);
+  return objectiveById;
+}
+
+async function fetchAdRows(account, since, until, objectiveById) {
   const params = new URLSearchParams({
     level: "ad",
-    fields: "ad_id,ad_name,campaign_name,adset_name,spend,impressions,clicks,ctr,cpc,actions",
+    fields: "ad_id,ad_name,campaign_id,campaign_name,adset_name,spend,impressions,clicks,ctr,cpc,actions",
     time_range: JSON.stringify({ since, until }),
     time_increment: "1",
     limit: "500",
@@ -75,6 +88,10 @@ async function fetchAdRows(account, since, until) {
       ad_name: r.ad_name || "",
       campaign: r.campaign_name || "",
       adset: r.adset_name || "",
+      // Whether the parent campaign's objective is Meta's lead-generation
+      // outcome — used by the "Criativos" ranking to only surface ads from
+      // lead-gen campaigns (not engagement/traffic campaigns).
+      is_lead_gen: objectiveById.get(r.campaign_id) === LEAD_OBJECTIVE,
       spend,
       impressions: Number(r.impressions || 0),
       clicks: Number(r.clicks || 0),
@@ -147,7 +164,10 @@ async function main() {
   const channelRows = [];
 
   for (const account of AD_ACCOUNTS) {
-    const ads = await fetchAdRows(account, since, until);
+    const objectiveById = await fetchCampaignObjectives(account);
+    console.log(`Fetched objectives for ${objectiveById.size} campaigns in ${account.name}`);
+
+    const ads = await fetchAdRows(account, since, until, objectiveById);
     adRows.push(...ads);
     console.log(`Fetched ${ads.length} ad-day rows for ${account.name}`);
 
@@ -156,15 +176,21 @@ async function main() {
     console.log(`Fetched ${channels.length} channel-day rows for ${account.name}`);
   }
 
-  // Rank ads by total spend over the whole window and fetch creative
-  // thumbnails only for the top N — keeps the daily API call volume small.
-  const spendByAd = new Map();
+  // The "Criativos" section ranks by cost-per-lead among lead-gen campaigns
+  // only, and that ranking can change with the date range the user picks in
+  // the UI. Fetch thumbnails for every ad that could plausibly land in that
+  // top 8 for *some* sub-range of the last 90 days — i.e. every lead-gen ad
+  // with at least one lead somewhere in the full window.
+  const statsByAd = new Map();
   for (const r of adRows) {
-    spendByAd.set(r.ad_id, (spendByAd.get(r.ad_id) || 0) + r.spend);
+    if (!r.is_lead_gen) continue;
+    if (!statsByAd.has(r.ad_id)) statsByAd.set(r.ad_id, { spend: 0, leads: 0 });
+    const s = statsByAd.get(r.ad_id);
+    s.spend += r.spend;
+    s.leads += r.leads;
   }
-  const topAdIds = Array.from(spendByAd.entries())
-    .sort((a, b) => b[1] - a[1])
-    .slice(0, TOP_CREATIVES_WITH_THUMB)
+  const topAdIds = Array.from(statsByAd.entries())
+    .filter(([, s]) => s.leads > 0)
     .map(([id]) => id);
 
   const creatives = {};
