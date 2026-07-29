@@ -2,12 +2,18 @@ name: Update campaign data
 
 on:
   schedule:
-    # 09:00 America/Maceio (UTC-3) = 12:00 UTC
-    - cron: "0 12 * * *"
+    # Every 15 minutes
+    - cron: "*/15 * * * *"
   workflow_dispatch: {}
 
 permissions:
   contents: write
+
+# Runs take ~2min; at a 15min cadence a delayed trigger could otherwise
+# overlap with the next one and race on the git push at the end.
+concurrency:
+  group: update-data
+  cancel-in-progress: false
 
 jobs:
   update-data:

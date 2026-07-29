@@ -2,7 +2,10 @@
 
 Dashboard estático de performance de Meta Ads (Facebook/Instagram) e do funil
 de vendas do CV CRM, hospedado no GitHub Pages. Os dados são atualizados
-automaticamente uma vez por dia via GitHub Actions.
+automaticamente a cada 15 minutos via GitHub Actions — não é "tempo real"
+no sentido estrito (cada acesso ao site ainda lê o último JSON gerado, e a
+própria Meta Ads consolida os números do dia com atraso natural), mas fica
+bem próximo disso sem precisar de um backend.
 
 ## Como funciona
 
@@ -18,9 +21,10 @@ automaticamente uma vez por dia via GitHub Actions.
   por canal/posicionamento (breakdowns `publisher_platform`/`platform_position`)
   na Meta Marketing API, mais thumbnail e formulário de lead dos criativos com
   maior investimento, e grava em `data/creatives.json`.
-- `.github/workflows/update-data.yml` — roda os três scripts todo dia às 09:00
-  (America/Maceio) e comita os JSONs atualizados. Pode também ser disparado
-  manualmente na aba **Actions** do repositório.
+- `.github/workflows/update-data.yml` — roda os três scripts a cada 15
+  minutos e comita os JSONs quando algo mudou (sem commit se os dados vierem
+  iguais aos da execução anterior). Pode também ser disparado manualmente na
+  aba **Actions** do repositório.
 - `index.html` / `app.js` — página **Dashboard**: KPIs e gráficos de Meta Ads,
   resumo do funil de vendas do CV CRM e ROI (com filtro de período próprio),
   tabela de campanhas.
