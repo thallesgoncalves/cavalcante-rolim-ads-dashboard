@@ -1,8 +1,65 @@
 {
-  "generated_at": "2026-08-02T21:36:10.592Z",
+  "generated_at": "2026-08-02T22:36:56.966Z",
   "source": "cv-crm",
-  "total_leads": 1757,
+  "total_leads": 1760,
   "leads": [
+    {
+      "id": 1788,
+      "situacao_id": 1,
+      "situacao": "ENTRADA /  LEAD NOVO",
+      "origem": "Facebook",
+      "midia_principal": null,
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-08-02 19:30:57",
+      "data_vencimento": "2026-08-02 20:30:58",
+      "ultima_data_conversao": "2026-08-02 19:30:57",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
+    {
+      "id": 1787,
+      "situacao_id": 1,
+      "situacao": "ENTRADA /  LEAD NOVO",
+      "origem": "Facebook",
+      "midia_principal": "Facebook Ads",
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-08-02 19:00:45",
+      "data_vencimento": "2026-08-02 20:00:46",
+      "ultima_data_conversao": "2026-08-02 19:00:45",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
+    {
+      "id": 1786,
+      "situacao_id": 1,
+      "situacao": "ENTRADA /  LEAD NOVO",
+      "origem": "Facebook",
+      "midia_principal": null,
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-08-02 18:55:12",
+      "data_vencimento": "2026-08-02 19:55:13",
+      "ultima_data_conversao": "2026-08-02 18:55:12",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
     {
       "id": 1785,
       "situacao_id": 1,
@@ -17,7 +74,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-08-02 18:25:41",
-      "data_vencimento": "2026-08-02 19:25:42",
+      "data_vencimento": "2026-08-03 09:25:00",
       "ultima_data_conversao": "2026-08-02 18:25:41",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
@@ -74,7 +131,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-08-02 14:21:43",
-      "data_vencimento": "2026-08-02 18:36:30",
+      "data_vencimento": "2026-08-03 09:36:00",
       "ultima_data_conversao": "2026-08-02 14:21:43",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
@@ -112,7 +169,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-08-02 13:41:20",
-      "data_vencimento": "2026-08-02 18:51:15",
+      "data_vencimento": "2026-08-03 09:51:00",
       "ultima_data_conversao": "2026-08-02 13:41:20",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
@@ -264,7 +321,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-08-01 15:16:38",
-      "data_vencimento": "2026-08-02 18:57:37",
+      "data_vencimento": "2026-08-03 09:57:00",
       "ultima_data_conversao": "2026-08-01 15:16:38",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
@@ -283,7 +340,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-08-01 14:06:38",
-      "data_vencimento": "2026-08-02 18:36:30",
+      "data_vencimento": "2026-08-03 09:36:00",
       "ultima_data_conversao": "2026-08-01 14:06:38",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
