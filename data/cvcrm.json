@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T19:54:16.866Z",
+  "generated_at": "2026-08-04T21:02:14.531Z",
   "source": "cv-crm",
   "total_leads": 1779,
   "leads": [
@@ -62,8 +62,8 @@
     },
     {
       "id": 1804,
-      "situacao_id": 12,
-      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
+      "situacao_id": 14,
+      "situacao": "QUALIFICADO / QUENTE",
       "origem": "Facebook",
       "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -2228,8 +2228,8 @@
     },
     {
       "id": 1690,
-      "situacao_id": 12,
-      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
+      "situacao_id": 8,
+      "situacao": "Visita Realizada",
       "origem": "Facebook",
       "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -2240,7 +2240,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-07-27 22:25:18",
-      "data_vencimento": "2026-07-28 09:25:00",
+      "data_vencimento": null,
       "ultima_data_conversao": "2026-07-27 22:25:18",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
@@ -3993,8 +3993,8 @@
     },
     {
       "id": 1597,
-      "situacao_id": 14,
-      "situacao": "QUALIFICADO / QUENTE",
+      "situacao_id": 4,
+      "situacao": "FUTURA COMPRA",
       "origem": "Facebook",
       "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -15414,8 +15414,8 @@
     },
     {
       "id": 996,
-      "situacao_id": 16,
-      "situacao": "MANUTENÇÃO / MORNO",
+      "situacao_id": 15,
+      "situacao": "Não Compareceu",
       "origem": "Facebook",
       "midia_principal": null,
       "corretor": "Thallyta Baltazar de Almeida Costa",
