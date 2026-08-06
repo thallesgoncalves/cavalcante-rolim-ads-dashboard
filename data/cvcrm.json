@@ -1,12 +1,31 @@
 {
-  "generated_at": "2026-08-06T09:59:49.361Z",
+  "generated_at": "2026-08-06T12:02:46.160Z",
   "source": "cv-crm",
-  "total_leads": 1795,
+  "total_leads": 1796,
   "leads": [
     {
+      "id": 1824,
+      "situacao_id": 12,
+      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
+      "origem": "Facebook",
+      "midia_principal": "Facebook Ads",
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-08-06 07:34:58",
+      "data_vencimento": null,
+      "ultima_data_conversao": "2026-08-06 07:34:58",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
+    {
       "id": 1823,
-      "situacao_id": 1,
-      "situacao": "ENTRADA /  LEAD NOVO",
+      "situacao_id": 12,
+      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
       "origem": "Facebook",
       "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -24,8 +43,8 @@
     },
     {
       "id": 1822,
-      "situacao_id": 1,
-      "situacao": "ENTRADA /  LEAD NOVO",
+      "situacao_id": 12,
+      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
       "origem": "Facebook",
       "midia_principal": null,
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -43,8 +62,8 @@
     },
     {
       "id": 1821,
-      "situacao_id": 1,
-      "situacao": "ENTRADA /  LEAD NOVO",
+      "situacao_id": 13,
+      "situacao": "DESCARTADO",
       "origem": "Facebook",
       "midia_principal": null,
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -55,7 +74,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-08-05 22:10:27",
-      "data_vencimento": "2026-08-06 09:10:00",
+      "data_vencimento": "2026-08-06 09:31:35",
       "ultima_data_conversao": "2026-08-05 22:10:27",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
