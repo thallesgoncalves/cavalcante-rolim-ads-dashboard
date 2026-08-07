@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T16:32:34.982Z",
+  "generated_at": "2026-08-07T18:29:00.455Z",
   "source": "cv-crm",
   "total_leads": 1804,
   "leads": [
@@ -2753,8 +2753,8 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-07-27 15:16:25",
-      "data_vencimento": "2026-07-27 16:16:26",
-      "ultima_data_conversao": "2026-07-27 15:16:25",
+      "data_vencimento": null,
+      "ultima_data_conversao": "2026-08-07 15:26:06",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
     },
