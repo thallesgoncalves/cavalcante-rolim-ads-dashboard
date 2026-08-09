@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T17:46:05.543Z",
+  "generated_at": "2026-08-09T18:23:46.073Z",
   "source": "cv-crm",
   "total_leads": 1824,
   "leads": [
@@ -17,15 +17,15 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-08-09 13:47:26",
-      "data_vencimento": "2026-08-09 14:47:27",
+      "data_vencimento": "2026-08-09 15:51:06",
       "ultima_data_conversao": "2026-08-09 13:47:26",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
     },
     {
       "id": 1851,
-      "situacao_id": 1,
-      "situacao": "ENTRADA /  LEAD NOVO",
+      "situacao_id": 13,
+      "situacao": "DESCARTADO",
       "origem": "Facebook",
       "midia_principal": null,
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -36,7 +36,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-08-09 13:36:27",
-      "data_vencimento": "2026-08-09 15:42:24",
+      "data_vencimento": null,
       "ultima_data_conversao": "2026-08-09 13:36:27",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
@@ -55,7 +55,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-08-09 13:16:38",
-      "data_vencimento": "2026-08-09 15:21:08",
+      "data_vencimento": "2026-08-09 16:21:12",
       "ultima_data_conversao": "2026-08-09 13:16:38",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
@@ -74,7 +74,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-08-09 11:50:35",
-      "data_vencimento": "2026-08-09 14:51:04",
+      "data_vencimento": "2026-08-09 15:51:06",
       "ultima_data_conversao": "2026-08-09 11:50:35",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
