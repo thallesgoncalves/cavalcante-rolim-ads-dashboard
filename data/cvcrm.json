@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T14:07:08.495Z",
+  "generated_at": "2026-08-09T14:51:03.739Z",
   "source": "cv-crm",
-  "total_leads": 1820,
+  "total_leads": 1821,
   "leads": [
     {
       "id": 1848,
@@ -16511,6 +16511,25 @@
       "data_cad": "2025-11-27 02:55:17",
       "data_vencimento": null,
       "ultima_data_conversao": "2025-11-27 02:55:17",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
+    {
+      "id": 979,
+      "situacao_id": 8,
+      "situacao": "Visita Realizada",
+      "origem": "Facebook",
+      "midia_principal": null,
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2025-11-26 21:40:58",
+      "data_vencimento": null,
+      "ultima_data_conversao": "2025-11-26 21:40:58",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
     },
