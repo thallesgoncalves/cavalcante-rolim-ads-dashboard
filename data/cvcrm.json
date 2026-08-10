@@ -1,12 +1,31 @@
 {
-  "generated_at": "2026-08-10T09:46:21.299Z",
+  "generated_at": "2026-08-10T11:41:58.237Z",
   "source": "cv-crm",
-  "total_leads": 1828,
+  "total_leads": 1829,
   "leads": [
     {
+      "id": 1857,
+      "situacao_id": 12,
+      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
+      "origem": "Facebook",
+      "midia_principal": "Facebook Ads",
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-08-10 07:15:46",
+      "data_vencimento": "2026-08-10 08:15:47",
+      "ultima_data_conversao": "2026-08-10 07:15:46",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
+    {
       "id": 1856,
-      "situacao_id": 1,
-      "situacao": "ENTRADA /  LEAD NOVO",
+      "situacao_id": 12,
+      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
       "origem": "Facebook",
       "midia_principal": null,
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -17,15 +36,15 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-08-10 05:44:45",
-      "data_vencimento": "2026-08-10 06:44:46",
+      "data_vencimento": "2026-08-10 09:44:00",
       "ultima_data_conversao": "2026-08-10 05:44:45",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
     },
     {
       "id": 1855,
-      "situacao_id": 1,
-      "situacao": "ENTRADA /  LEAD NOVO",
+      "situacao_id": 12,
+      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
       "origem": "Facebook",
       "midia_principal": null,
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -43,8 +62,8 @@
     },
     {
       "id": 1854,
-      "situacao_id": 1,
-      "situacao": "ENTRADA /  LEAD NOVO",
+      "situacao_id": 12,
+      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
       "origem": "Facebook",
       "midia_principal": null,
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -62,8 +81,8 @@
     },
     {
       "id": 1853,
-      "situacao_id": 1,
-      "situacao": "ENTRADA /  LEAD NOVO",
+      "situacao_id": 12,
+      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
       "origem": "Facebook",
       "midia_principal": null,
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -81,8 +100,8 @@
     },
     {
       "id": 1852,
-      "situacao_id": 1,
-      "situacao": "ENTRADA /  LEAD NOVO",
+      "situacao_id": 12,
+      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
       "origem": "Facebook",
       "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
