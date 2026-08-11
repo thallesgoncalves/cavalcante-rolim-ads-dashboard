@@ -1,8 +1,27 @@
 {
-  "generated_at": "2026-08-11T22:02:49.866Z",
+  "generated_at": "2026-08-11T23:00:37.549Z",
   "source": "cv-crm",
-  "total_leads": 1845,
+  "total_leads": 1846,
   "leads": [
+    {
+      "id": 1874,
+      "situacao_id": 13,
+      "situacao": "DESCARTADO",
+      "origem": "Facebook",
+      "midia_principal": "Facebook Ads",
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-08-11 19:05:33",
+      "data_vencimento": "2026-08-11 20:06:08",
+      "ultima_data_conversao": "2026-08-11 19:05:33",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
     {
       "id": 1873,
       "situacao_id": 12,
