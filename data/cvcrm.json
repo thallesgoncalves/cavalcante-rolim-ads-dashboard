@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-11T21:12:03.426Z",
+  "generated_at": "2026-08-11T22:02:49.866Z",
   "source": "cv-crm",
   "total_leads": 1845,
   "leads": [
     {
       "id": 1873,
-      "situacao_id": 1,
-      "situacao": "ENTRADA /  LEAD NOVO",
+      "situacao_id": 12,
+      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
       "origem": "Facebook",
       "midia_principal": null,
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -17,7 +17,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-08-11 17:31:27",
-      "data_vencimento": "2026-08-11 18:31:28",
+      "data_vencimento": "2026-08-11 19:15:17",
       "ultima_data_conversao": "2026-08-11 17:31:27",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
