@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-12T09:00:26.780Z",
+  "generated_at": "2026-08-12T10:06:36.129Z",
   "source": "cv-crm",
-  "total_leads": 1851,
+  "total_leads": 1852,
   "leads": [
     {
       "id": 1879,
@@ -17,7 +17,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-08-12 05:44:53",
-      "data_vencimento": "2026-08-12 06:44:54",
+      "data_vencimento": "2026-08-12 09:44:00",
       "ultima_data_conversao": "2026-08-12 05:44:53",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
@@ -31327,6 +31327,25 @@
       "data_cad": "2025-08-03 11:00:37",
       "data_vencimento": null,
       "ultima_data_conversao": "2025-08-03 11:00:37",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
+    {
+      "id": 218,
+      "situacao_id": 17,
+      "situacao": "REATIVAÇÃO / FRIO",
+      "origem": "Facebook",
+      "midia_principal": null,
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": 4,
+      "data_cad": "2025-08-02 20:59:33",
+      "data_vencimento": null,
+      "ultima_data_conversao": "2025-08-02 20:59:33",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
     },
