@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T23:35:07.750Z",
+  "generated_at": "2026-08-14T23:58:43.067Z",
   "source": "cv-crm",
   "total_leads": 1877,
   "leads": [
@@ -6787,7 +6787,7 @@
       "situacao_id": 17,
       "situacao": "REATIVAÇÃO / FRIO",
       "origem": "Facebook",
-      "midia_principal": null,
+      "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
       "empreendimentos": [
         "Pininfarina"
@@ -6797,7 +6797,7 @@
       "possibilidade_venda": null,
       "data_cad": "2026-01-11 22:15:30",
       "data_vencimento": null,
-      "ultima_data_conversao": "2026-01-11 22:15:30",
+      "ultima_data_conversao": "2026-08-14 20:55:23",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
     },
