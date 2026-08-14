@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-14T14:37:36.550Z",
+  "generated_at": "2026-08-14T15:29:09.331Z",
   "source": "cv-crm",
   "total_leads": 1874,
   "leads": [
     {
       "id": 1902,
-      "situacao_id": 1,
-      "situacao": "ENTRADA /  LEAD NOVO",
+      "situacao_id": 12,
+      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
       "origem": "Facebook",
       "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
