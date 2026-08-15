@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T18:47:45.606Z",
+  "generated_at": "2026-08-15T19:13:42.959Z",
   "source": "meta-marketing-api",
   "days_back": 90,
   "rows": [
@@ -5949,26 +5949,26 @@
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "[MKT][LEADS][MANTA] - 10/07/26",
       "adset": "",
-      "spend": 57.27,
-      "impressions": 809,
-      "clicks": 22,
-      "ctr": 2.719407,
-      "cpc": 2.603182,
-      "leads": 1,
-      "cost_per_lead": 57.27
+      "spend": 65.2,
+      "impressions": 842,
+      "clicks": 29,
+      "ctr": 3.444181,
+      "cpc": 2.248276,
+      "leads": 2,
+      "cost_per_lead": 32.6
     },
     {
       "date": "2026-08-15",
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "00 - INTERESSES - TESTE DE CRIATIVOS",
       "adset": "",
-      "spend": 68.89,
-      "impressions": 1768,
-      "clicks": 53,
-      "ctr": 2.997738,
-      "cpc": 1.299811,
+      "spend": 70.74,
+      "impressions": 1851,
+      "clicks": 57,
+      "ctr": 3.079417,
+      "cpc": 1.241053,
       "leads": 3,
-      "cost_per_lead": 22.963333333333335
+      "cost_per_lead": 23.58
     }
   ]
 }
