@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-16T14:19:49.068Z",
+  "generated_at": "2026-08-16T14:45:46.067Z",
   "source": "cv-crm",
   "total_leads": 1890,
   "leads": [
     {
       "id": 1918,
-      "situacao_id": 1,
-      "situacao": "ENTRADA /  LEAD NOVO",
+      "situacao_id": 13,
+      "situacao": "DESCARTADO",
       "origem": "Facebook",
       "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -17,7 +17,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-08-16 10:31:21",
-      "data_vencimento": "2026-08-16 11:31:21",
+      "data_vencimento": "2026-08-16 12:42:50",
       "ultima_data_conversao": "2026-08-16 10:31:21",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
