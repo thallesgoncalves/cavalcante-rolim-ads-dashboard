@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-18T12:42:21.666Z",
+  "generated_at": "2026-08-18T13:29:30.141Z",
   "source": "cv-crm",
   "total_leads": 1913,
   "leads": [
     {
       "id": 1941,
-      "situacao_id": 1,
-      "situacao": "ENTRADA /  LEAD NOVO",
+      "situacao_id": 13,
+      "situacao": "DESCARTADO",
       "origem": "Facebook",
       "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -195,8 +195,8 @@
     },
     {
       "id": 1931,
-      "situacao_id": 12,
-      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
+      "situacao_id": 13,
+      "situacao": "DESCARTADO",
       "origem": "Facebook",
       "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -252,8 +252,8 @@
     },
     {
       "id": 1928,
-      "situacao_id": 12,
-      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
+      "situacao_id": 13,
+      "situacao": "DESCARTADO",
       "origem": "Facebook",
       "midia_principal": null,
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -4468,8 +4468,8 @@
     },
     {
       "id": 1706,
-      "situacao_id": 16,
-      "situacao": "MANUTENÇÃO / MORNO",
+      "situacao_id": 17,
+      "situacao": "REATIVAÇÃO / FRIO",
       "origem": "Facebook",
       "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
