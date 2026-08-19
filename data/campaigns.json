@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T12:41:02.515Z",
+  "generated_at": "2026-08-19T14:06:46.339Z",
   "source": "meta-marketing-api",
   "days_back": 90,
   "rows": [
@@ -6066,24 +6066,24 @@
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "[MKT][LEADS][MANTA] - AGO26",
       "adset": "",
-      "spend": 96.72,
-      "impressions": 2087,
+      "spend": 96.74,
+      "impressions": 2088,
       "clicks": 56,
-      "ctr": 2.683277,
-      "cpc": 1.727143,
+      "ctr": 2.681992,
+      "cpc": 1.7275,
       "leads": 4,
-      "cost_per_lead": 24.18
+      "cost_per_lead": 24.185
     },
     {
       "date": "2026-08-19",
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "[MKT][LEADS][MANTA] - 10/07/26",
       "adset": "",
-      "spend": 28.35,
-      "impressions": 325,
-      "clicks": 10,
-      "ctr": 3.076923,
-      "cpc": 2.835,
+      "spend": 36.33,
+      "impressions": 432,
+      "clicks": 13,
+      "ctr": 3.009259,
+      "cpc": 2.794615,
       "leads": 0,
       "cost_per_lead": null
     },
@@ -6092,26 +6092,26 @@
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "00 - INTERESSES - TESTE DE CRIATIVOS",
       "adset": "",
-      "spend": 18.16,
-      "impressions": 400,
-      "clicks": 15,
-      "ctr": 3.75,
-      "cpc": 1.210667,
+      "spend": 24.44,
+      "impressions": 551,
+      "clicks": 22,
+      "ctr": 3.99274,
+      "cpc": 1.110909,
       "leads": 1,
-      "cost_per_lead": 18.16
+      "cost_per_lead": 24.44
     },
     {
       "date": "2026-08-19",
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "[MKT][LEADS][MANTA] - AGO26",
       "adset": "",
-      "spend": 21.36,
-      "impressions": 419,
-      "clicks": 11,
-      "ctr": 2.625298,
-      "cpc": 1.941818,
-      "leads": 0,
-      "cost_per_lead": null
+      "spend": 25.68,
+      "impressions": 575,
+      "clicks": 16,
+      "ctr": 2.782609,
+      "cpc": 1.605,
+      "leads": 1,
+      "cost_per_lead": 25.68
     }
   ]
 }
