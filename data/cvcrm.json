@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T19:00:40.455Z",
+  "generated_at": "2026-08-19T19:26:32.658Z",
   "source": "cv-crm",
   "total_leads": 1936,
   "leads": [
@@ -936,8 +936,8 @@
     },
     {
       "id": 1915,
-      "situacao_id": 12,
-      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
+      "situacao_id": 14,
+      "situacao": "QUALIFICADO / QUENTE",
       "origem": "Facebook",
       "midia_principal": null,
       "corretor": "Thallyta Baltazar de Almeida Costa",
