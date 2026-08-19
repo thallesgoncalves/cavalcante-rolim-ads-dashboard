@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-19T20:15:24.317Z",
+  "generated_at": "2026-08-19T20:46:10.790Z",
   "source": "cv-crm",
-  "total_leads": 1936,
+  "total_leads": 1937,
   "leads": [
     {
       "id": 1964,
@@ -22208,6 +22208,25 @@
       "data_cad": "2025-10-29 18:41:13",
       "data_vencimento": "2025-10-30 09:41:00",
       "ultima_data_conversao": "2025-10-29 18:41:13",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
+    {
+      "id": 792,
+      "situacao_id": 5,
+      "situacao": "Com Reserva",
+      "origem": "Facebook",
+      "midia_principal": null,
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2025-10-29 17:12:25",
+      "data_vencimento": null,
+      "ultima_data_conversao": "2025-10-29 17:12:25",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
     },
