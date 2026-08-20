@@ -555,12 +555,20 @@ body {
   font-variant-numeric: tabular-nums;
 }
 
-/* ROI section */
+/* ROI section — fixed 3-column grid (3 tiles per row) instead of auto-fit,
+   so the 6 tiles always land as two clean rows of 3 instead of reflowing
+   into an uneven 4+2 or 5+1 split at in-between widths. */
 .roi-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 12px;
   margin-top: 4px;
+}
+@media (max-width: 720px) {
+  .roi-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 480px) {
+  .roi-grid { grid-template-columns: 1fr; }
 }
 .roi-tile {
   border-radius: 14px;
