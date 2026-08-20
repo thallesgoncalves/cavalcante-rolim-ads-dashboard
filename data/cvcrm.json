@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T14:07:27.724Z",
+  "generated_at": "2026-08-20T14:53:28.159Z",
   "source": "cv-crm",
   "total_leads": 1951,
   "leads": [
@@ -3138,8 +3138,8 @@
     },
     {
       "id": 1814,
-      "situacao_id": 12,
-      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
+      "situacao_id": 13,
+      "situacao": "DESCARTADO",
       "origem": "Facebook",
       "midia_principal": null,
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -3917,8 +3917,8 @@
     },
     {
       "id": 1773,
-      "situacao_id": 12,
-      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
+      "situacao_id": 17,
+      "situacao": "REATIVAÇÃO / FRIO",
       "origem": "Facebook",
       "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -5722,8 +5722,8 @@
     },
     {
       "id": 1678,
-      "situacao_id": 12,
-      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
+      "situacao_id": 13,
+      "situacao": "DESCARTADO",
       "origem": "Facebook",
       "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
