@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T11:16:25.008Z",
+  "generated_at": "2026-08-20T11:49:38.641Z",
   "source": "meta-marketing-api",
   "days_back": 90,
   "rows": [
@@ -6092,13 +6092,13 @@
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "00 - INTERESSES - TESTE DE CRIATIVOS",
       "adset": "",
-      "spend": 130.69,
-      "impressions": 3555,
+      "spend": 130.7,
+      "impressions": 3556,
       "clicks": 128,
-      "ctr": 3.600563,
-      "cpc": 1.021016,
+      "ctr": 3.59955,
+      "cpc": 1.021094,
       "leads": 5,
-      "cost_per_lead": 26.137999999999998
+      "cost_per_lead": 26.139999999999997
     },
     {
       "date": "2026-08-19",
@@ -6118,24 +6118,24 @@
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "[MKT][LEADS][MANTA] - 10/07/26",
       "adset": "",
-      "spend": 37.54,
-      "impressions": 205,
+      "spend": 40.15,
+      "impressions": 222,
       "clicks": 16,
-      "ctr": 7.804878,
-      "cpc": 2.34625,
+      "ctr": 7.207207,
+      "cpc": 2.509375,
       "leads": 4,
-      "cost_per_lead": 9.385
+      "cost_per_lead": 10.0375
     },
     {
       "date": "2026-08-20",
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "00 - INTERESSES - TESTE DE CRIATIVOS",
       "adset": "",
-      "spend": 16.2,
-      "impressions": 383,
-      "clicks": 23,
-      "ctr": 6.005222,
-      "cpc": 0.704348,
+      "spend": 17.57,
+      "impressions": 418,
+      "clicks": 27,
+      "ctr": 6.45933,
+      "cpc": 0.650741,
       "leads": 0,
       "cost_per_lead": null
     },
@@ -6144,13 +6144,13 @@
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "[MKT][LEADS][MANTA] - AGO26",
       "adset": "",
-      "spend": 16.09,
-      "impressions": 234,
+      "spend": 17.96,
+      "impressions": 266,
       "clicks": 8,
-      "ctr": 3.418803,
-      "cpc": 2.01125,
+      "ctr": 3.007519,
+      "cpc": 2.245,
       "leads": 1,
-      "cost_per_lead": 16.09
+      "cost_per_lead": 17.96
     }
   ]
 }
