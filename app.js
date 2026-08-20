@@ -263,6 +263,17 @@
     const roi = spend > 0 && withValue.length > 0 ? ((commission - spend) / spend) * 100 : null;
     const roiText = roi == null ? "—" : `${roi >= 0 ? "+" : ""}${roi.toLocaleString("pt-BR", { maximumFractionDigits: 0 })}%`;
 
+    // CAC only needs spend + how many deals closed — it doesn't depend on
+    // valor_negocio being filled in, unlike ROAS/ROI below.
+    const cac = wonLeads.length > 0 ? spend / wonLeads.length : null;
+    const cacText = cac == null ? "—" : fmtCurrency2(cac);
+
+    // ROAS uses the same revenue basis as ROI (estimated commission, not the
+    // gross sale value) so the two stay consistent on this card — and needs
+    // the same guard: at least one sale with a recorded value.
+    const roas = spend > 0 && withValue.length > 0 ? commission / spend : null;
+    const roasText = roas == null ? "—" : `${roas.toLocaleString("pt-BR", { maximumFractionDigits: 1 })}x`;
+
     const caveatEl = document.getElementById("roi-caveat");
     if (caveatEl) {
       caveatEl.textContent =
@@ -274,11 +285,17 @@
     const tiles = [
       { label: "Investimento em anúncios", value: fmtCurrency(spend) },
       {
+        label: "CAC (mídia)",
+        value: cacText,
+        sub: `${fmtNumber(wonLeads.length)} venda(s) no período`,
+      },
+      {
         label: "Valor total vendido",
         value: fmtCurrency(totalSold),
         sub: `${fmtNumber(withValue.length)} de ${fmtNumber(wonLeads.length)} venda(s) com valor registrado`,
       },
       { label: `Comissão estimada (${(ROI_COMMISSION_RATE * 100).toLocaleString("pt-BR")}%)`, value: fmtCurrency(commission) },
+      { label: "ROAS", value: roasText, sub: "receita = comissão estimada" },
       { label: "ROI", value: roiText, highlight: true },
     ];
 
