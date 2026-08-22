@@ -1,12 +1,31 @@
 {
-  "generated_at": "2026-08-22T16:40:01.409Z",
+  "generated_at": "2026-08-22T16:58:21.493Z",
   "source": "cv-crm",
-  "total_leads": 1978,
+  "total_leads": 1979,
   "leads": [
     {
+      "id": 2007,
+      "situacao_id": 13,
+      "situacao": "DESCARTADO",
+      "origem": "Facebook",
+      "midia_principal": "Facebook Ads",
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-08-22 13:46:15",
+      "data_vencimento": null,
+      "ultima_data_conversao": "2026-08-22 13:46:15",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
+    {
       "id": 2006,
-      "situacao_id": 1,
-      "situacao": "ENTRADA /  LEAD NOVO",
+      "situacao_id": 12,
+      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
       "origem": "Facebook",
       "midia_principal": null,
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -17,7 +36,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-08-22 13:36:41",
-      "data_vencimento": "2026-08-22 14:36:42",
+      "data_vencimento": null,
       "ultima_data_conversao": "2026-08-22 13:36:41",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
@@ -2060,7 +2079,7 @@
       "situacao_id": 17,
       "situacao": "REATIVAÇÃO / FRIO",
       "origem": "Facebook",
-      "midia_principal": "Facebook Ads",
+      "midia_principal": null,
       "corretor": "Thallyta Baltazar de Almeida Costa",
       "empreendimentos": [
         "Pininfarina"
@@ -2069,8 +2088,8 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-08-13 21:35:12",
-      "data_vencimento": "2026-08-14 09:35:00",
-      "ultima_data_conversao": "2026-08-13 21:35:12",
+      "data_vencimento": null,
+      "ultima_data_conversao": "2026-08-22 13:56:13",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
     },
