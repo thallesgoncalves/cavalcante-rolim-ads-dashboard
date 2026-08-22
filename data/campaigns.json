@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T11:41:36.171Z",
+  "generated_at": "2026-08-22T11:56:10.363Z",
   "source": "meta-marketing-api",
   "days_back": 90,
   "rows": [
@@ -6157,13 +6157,13 @@
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "[MKT][LEADS][MANTA] - 10/07/26",
       "adset": "",
-      "spend": 107.18,
-      "impressions": 1105,
+      "spend": 107.19,
+      "impressions": 1106,
       "clicks": 47,
-      "ctr": 4.253394,
-      "cpc": 2.280426,
+      "ctr": 4.249548,
+      "cpc": 2.280638,
       "leads": 6,
-      "cost_per_lead": 17.863333333333333
+      "cost_per_lead": 17.865
     },
     {
       "date": "2026-08-21",
@@ -6196,37 +6196,37 @@
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "[MKT][LEADS][MANTA] - 10/07/26",
       "adset": "",
-      "spend": 14.46,
-      "impressions": 160,
-      "clicks": 5,
-      "ctr": 3.125,
-      "cpc": 2.892,
+      "spend": 15.08,
+      "impressions": 171,
+      "clicks": 6,
+      "ctr": 3.508772,
+      "cpc": 2.513333,
       "leads": 2,
-      "cost_per_lead": 7.23
+      "cost_per_lead": 7.54
     },
     {
       "date": "2026-08-22",
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "00 - INTERESSES - TESTE DE CRIATIVOS",
       "adset": "",
-      "spend": 19.47,
-      "impressions": 618,
+      "spend": 20.34,
+      "impressions": 638,
       "clicks": 28,
-      "ctr": 4.530744,
-      "cpc": 0.695357,
-      "leads": 2,
-      "cost_per_lead": 9.735
+      "ctr": 4.388715,
+      "cpc": 0.726429,
+      "leads": 3,
+      "cost_per_lead": 6.78
     },
     {
       "date": "2026-08-22",
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "[MKT][LEADS][MANTA] - AGO26",
       "adset": "",
-      "spend": 23.58,
-      "impressions": 282,
-      "clicks": 6,
-      "ctr": 2.12766,
-      "cpc": 3.93,
+      "spend": 23.92,
+      "impressions": 301,
+      "clicks": 8,
+      "ctr": 2.657807,
+      "cpc": 2.99,
       "leads": 0,
       "cost_per_lead": null
     }
