@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T05:49:39.519Z",
+  "generated_at": "2026-08-22T07:06:49.000Z",
   "source": "meta-marketing-api",
   "days_back": 90,
   "rows": [
@@ -6157,13 +6157,13 @@
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "[MKT][LEADS][MANTA] - 10/07/26",
       "adset": "",
-      "spend": 107.12,
-      "impressions": 1104,
+      "spend": 107.18,
+      "impressions": 1105,
       "clicks": 47,
-      "ctr": 4.257246,
-      "cpc": 2.279149,
+      "ctr": 4.253394,
+      "cpc": 2.280426,
       "leads": 6,
-      "cost_per_lead": 17.853333333333335
+      "cost_per_lead": 17.863333333333333
     },
     {
       "date": "2026-08-21",
@@ -6196,37 +6196,37 @@
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "[MKT][LEADS][MANTA] - 10/07/26",
       "adset": "",
-      "spend": 5.04,
-      "impressions": 76,
+      "spend": 5.67,
+      "impressions": 84,
       "clicks": 5,
-      "ctr": 6.578947,
-      "cpc": 1.008,
+      "ctr": 5.952381,
+      "cpc": 1.134,
       "leads": 2,
-      "cost_per_lead": 2.52
+      "cost_per_lead": 2.835
     },
     {
       "date": "2026-08-22",
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "00 - INTERESSES - TESTE DE CRIATIVOS",
       "adset": "",
-      "spend": 5.11,
-      "impressions": 254,
-      "clicks": 8,
-      "ctr": 3.149606,
-      "cpc": 0.63875,
-      "leads": 1,
-      "cost_per_lead": 5.11
+      "spend": 6.46,
+      "impressions": 299,
+      "clicks": 13,
+      "ctr": 4.347826,
+      "cpc": 0.496923,
+      "leads": 2,
+      "cost_per_lead": 3.23
     },
     {
       "date": "2026-08-22",
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "[MKT][LEADS][MANTA] - AGO26",
       "adset": "",
-      "spend": 10.18,
-      "impressions": 128,
+      "spend": 11.24,
+      "impressions": 151,
       "clicks": 4,
-      "ctr": 3.125,
-      "cpc": 2.545,
+      "ctr": 2.649007,
+      "cpc": 2.81,
       "leads": 0,
       "cost_per_lead": null
     }
