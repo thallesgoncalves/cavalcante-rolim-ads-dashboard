@@ -1,8 +1,27 @@
 {
-  "generated_at": "2026-08-22T11:57:12.225Z",
+  "generated_at": "2026-08-22T12:21:44.562Z",
   "source": "cv-crm",
   "total_leads": 1977,
   "leads": [
+    {
+      "id": 2005,
+      "situacao_id": 1,
+      "situacao": "ENTRADA /  LEAD NOVO",
+      "origem": "Facebook",
+      "midia_principal": "Facebook Ads",
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-08-22 08:56:12",
+      "data_vencimento": "2026-08-22 09:56:13",
+      "ultima_data_conversao": "2026-08-22 08:56:12",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
     {
       "id": 2004,
       "situacao_id": 1,
@@ -55,7 +74,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-08-22 01:14:51",
-      "data_vencimento": "2026-08-22 09:14:00",
+      "data_vencimento": "2026-08-22 10:16:20",
       "ultima_data_conversao": "2026-08-22 01:14:51",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
@@ -112,7 +131,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-08-21 23:10:22",
-      "data_vencimento": "2026-08-22 09:10:00",
+      "data_vencimento": "2026-08-22 10:11:13",
       "ultima_data_conversao": "2026-08-21 23:10:22",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
@@ -131,7 +150,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-08-21 22:10:09",
-      "data_vencimento": "2026-08-22 09:10:00",
+      "data_vencimento": "2026-08-22 10:11:13",
       "ultima_data_conversao": "2026-08-21 22:10:09",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
@@ -150,7 +169,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-08-21 18:01:22",
-      "data_vencimento": "2026-08-22 09:01:00",
+      "data_vencimento": "2026-08-22 10:01:21",
       "ultima_data_conversao": "2026-08-21 18:01:22",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
@@ -2261,25 +2280,6 @@
       "data_cad": "2026-08-12 18:31:11",
       "data_vencimento": "2026-08-12 19:40:13",
       "ultima_data_conversao": "2026-08-12 18:31:11",
-      "qtde_simulacoes_associadas": 0,
-      "qtde_reservas_associadas": 0
-    },
-    {
-      "id": 1885,
-      "situacao_id": 17,
-      "situacao": "REATIVAÇÃO / FRIO",
-      "origem": "Facebook",
-      "midia_principal": null,
-      "corretor": "Thallyta Baltazar de Almeida Costa",
-      "empreendimentos": [
-        "Pininfarina"
-      ],
-      "score": 100,
-      "valor_negocio": 0,
-      "possibilidade_venda": null,
-      "data_cad": "2026-08-12 18:26:09",
-      "data_vencimento": null,
-      "ultima_data_conversao": "2026-08-12 18:26:09",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
     },
