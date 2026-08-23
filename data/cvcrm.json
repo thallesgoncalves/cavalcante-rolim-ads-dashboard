@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T10:58:05.465Z",
+  "generated_at": "2026-08-23T11:16:09.865Z",
   "source": "cv-crm",
-  "total_leads": 1990,
+  "total_leads": 1991,
   "leads": [
     {
       "id": 2018,
@@ -29617,6 +29617,25 @@
       "data_cad": "2025-09-16 16:37:33",
       "data_vencimento": null,
       "ultima_data_conversao": "2025-09-16 16:37:33",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
+    {
+      "id": 448,
+      "situacao_id": 3,
+      "situacao": "Perdido",
+      "origem": "Facebook",
+      "midia_principal": null,
+      "corretor": null,
+      "empreendimentos": [
+        "Pininfarina"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2025-09-16 15:55:54",
+      "data_vencimento": null,
+      "ultima_data_conversao": "2025-09-16 15:55:54",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
     },
