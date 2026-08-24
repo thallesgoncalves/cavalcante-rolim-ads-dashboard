@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T16:07:50.434Z",
+  "generated_at": "2026-08-24T16:53:09.114Z",
   "source": "meta-marketing-api",
   "days_back": 90,
   "rows": [
@@ -6235,13 +6235,13 @@
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "[MKT][LEADS][MANTA] - 10/07/26",
       "adset": "",
-      "spend": 149.36,
-      "impressions": 1546,
+      "spend": 149.39,
+      "impressions": 1547,
       "clicks": 44,
-      "ctr": 2.846054,
-      "cpc": 3.394545,
+      "ctr": 2.844215,
+      "cpc": 3.395227,
       "leads": 6,
-      "cost_per_lead": 24.893333333333334
+      "cost_per_lead": 24.89833333333333
     },
     {
       "date": "2026-08-23",
@@ -6274,39 +6274,39 @@
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "[MKT][LEADS][MANTA] - 10/07/26",
       "adset": "",
-      "spend": 45.68,
-      "impressions": 456,
-      "clicks": 12,
-      "ctr": 2.631579,
-      "cpc": 3.806667,
+      "spend": 51.13,
+      "impressions": 532,
+      "clicks": 13,
+      "ctr": 2.443609,
+      "cpc": 3.933077,
       "leads": 1,
-      "cost_per_lead": 45.68
+      "cost_per_lead": 51.13
     },
     {
       "date": "2026-08-24",
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "00 - INTERESSES - TESTE DE CRIATIVOS",
       "adset": "",
-      "spend": 46.3,
-      "impressions": 1520,
-      "clicks": 32,
-      "ctr": 2.105263,
-      "cpc": 1.446875,
+      "spend": 50.93,
+      "impressions": 1740,
+      "clicks": 37,
+      "ctr": 2.126437,
+      "cpc": 1.376486,
       "leads": 3,
-      "cost_per_lead": 15.433333333333332
+      "cost_per_lead": 16.976666666666667
     },
     {
       "date": "2026-08-24",
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "[MKT][LEADS][MANTA] - AGO26",
       "adset": "",
-      "spend": 38.42,
-      "impressions": 1023,
-      "clicks": 34,
-      "ctr": 3.323558,
-      "cpc": 1.13,
+      "spend": 41.53,
+      "impressions": 1151,
+      "clicks": 38,
+      "ctr": 3.301477,
+      "cpc": 1.092895,
       "leads": 5,
-      "cost_per_lead": 7.684
+      "cost_per_lead": 8.306000000000001
     }
   ]
 }
