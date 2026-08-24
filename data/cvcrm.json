@@ -1,8 +1,27 @@
 {
-  "generated_at": "2026-08-24T00:36:45.115Z",
+  "generated_at": "2026-08-24T02:12:16.721Z",
   "source": "cv-crm",
-  "total_leads": 2011,
+  "total_leads": 2012,
   "leads": [
+    {
+      "id": 2040,
+      "situacao_id": 1,
+      "situacao": "ENTRADA /  LEAD NOVO",
+      "origem": "Facebook",
+      "midia_principal": "Facebook Ads",
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-08-23 22:16:24",
+      "data_vencimento": "2026-08-23 23:16:24",
+      "ultima_data_conversao": "2026-08-23 22:16:24",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
     {
       "id": 2039,
       "situacao_id": 1,
@@ -17,7 +36,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-08-23 21:29:53",
-      "data_vencimento": "2026-08-23 22:29:54",
+      "data_vencimento": "2026-08-24 09:29:00",
       "ultima_data_conversao": "2026-08-23 21:29:53",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
@@ -27,7 +46,7 @@
       "situacao_id": 1,
       "situacao": "ENTRADA /  LEAD NOVO",
       "origem": "Facebook",
-      "midia_principal": null,
+      "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
       "empreendimentos": [
         "Pininfarina"
@@ -36,8 +55,8 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-08-23 21:25:15",
-      "data_vencimento": "2026-08-23 22:25:16",
-      "ultima_data_conversao": "2026-08-23 21:25:15",
+      "data_vencimento": "2026-08-23 23:44:58",
+      "ultima_data_conversao": "2026-08-23 22:44:58",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
     },
@@ -55,7 +74,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-08-23 20:49:52",
-      "data_vencimento": "2026-08-23 21:49:53",
+      "data_vencimento": "2026-08-24 09:49:00",
       "ultima_data_conversao": "2026-08-23 20:49:52",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
