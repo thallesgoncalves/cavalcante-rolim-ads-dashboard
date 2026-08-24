@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T13:29:19.447Z",
+  "generated_at": "2026-08-24T14:11:11.780Z",
   "source": "cv-crm",
   "total_leads": 2019,
   "leads": [
@@ -3689,8 +3689,8 @@
     },
     {
       "id": 1853,
-      "situacao_id": 12,
-      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
+      "situacao_id": 4,
+      "situacao": "FUTURA COMPRA",
       "origem": "Facebook",
       "midia_principal": null,
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -4240,8 +4240,8 @@
     },
     {
       "id": 1824,
-      "situacao_id": 12,
-      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
+      "situacao_id": 17,
+      "situacao": "REATIVAÇÃO / FRIO",
       "origem": "Facebook",
       "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",

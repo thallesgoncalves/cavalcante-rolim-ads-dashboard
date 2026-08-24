@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T13:28:11.678Z",
+  "generated_at": "2026-08-24T14:09:51.499Z",
   "source": "meta-marketing-api",
   "days_back": 90,
   "rows": [
@@ -6248,13 +6248,13 @@
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "00 - INTERESSES - TESTE DE CRIATIVOS",
       "adset": "",
-      "spend": 155.19,
-      "impressions": 6574,
+      "spend": 155.22,
+      "impressions": 6575,
       "clicks": 137,
-      "ctr": 2.083967,
-      "cpc": 1.132774,
+      "ctr": 2.08365,
+      "cpc": 1.132993,
       "leads": 15,
-      "cost_per_lead": 10.346
+      "cost_per_lead": 10.348
     },
     {
       "date": "2026-08-23",
@@ -6274,39 +6274,39 @@
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "[MKT][LEADS][MANTA] - 10/07/26",
       "adset": "",
-      "spend": 32.64,
-      "impressions": 288,
-      "clicks": 11,
-      "ctr": 3.819444,
-      "cpc": 2.967273,
+      "spend": 35.56,
+      "impressions": 323,
+      "clicks": 12,
+      "ctr": 3.71517,
+      "cpc": 2.963333,
       "leads": 1,
-      "cost_per_lead": 32.64
+      "cost_per_lead": 35.56
     },
     {
       "date": "2026-08-24",
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "00 - INTERESSES - TESTE DE CRIATIVOS",
       "adset": "",
-      "spend": 35.37,
-      "impressions": 1093,
+      "spend": 38.27,
+      "impressions": 1186,
       "clicks": 23,
-      "ctr": 2.1043,
-      "cpc": 1.537826,
+      "ctr": 1.939292,
+      "cpc": 1.663913,
       "leads": 3,
-      "cost_per_lead": 11.79
+      "cost_per_lead": 12.756666666666668
     },
     {
       "date": "2026-08-24",
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "[MKT][LEADS][MANTA] - AGO26",
       "adset": "",
-      "spend": 30.52,
-      "impressions": 716,
-      "clicks": 26,
-      "ctr": 3.631285,
-      "cpc": 1.173846,
+      "spend": 32.89,
+      "impressions": 837,
+      "clicks": 27,
+      "ctr": 3.225806,
+      "cpc": 1.218148,
       "leads": 4,
-      "cost_per_lead": 7.63
+      "cost_per_lead": 8.2225
     }
   ]
 }
