@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T22:44:59.338Z",
+  "generated_at": "2026-08-25T23:03:28.879Z",
   "source": "meta-marketing-api",
   "days_back": 90,
   "rows": [
@@ -6313,50 +6313,50 @@
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "[MKT][LEADS][MANTA] - 10/07/26",
       "adset": "",
-      "spend": 89.82,
-      "impressions": 951,
+      "spend": 90.6,
+      "impressions": 963,
       "clicks": 35,
-      "ctr": 3.680336,
-      "cpc": 2.566286,
+      "ctr": 3.634476,
+      "cpc": 2.588571,
       "leads": 5,
-      "cost_per_lead": 17.964
+      "cost_per_lead": 18.119999999999997
     },
     {
       "date": "2026-08-25",
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "00 - INTERESSES - TESTE DE CRIATIVOS",
       "adset": "",
-      "spend": 91.52,
-      "impressions": 5625,
-      "clicks": 176,
-      "ctr": 3.128889,
-      "cpc": 0.52,
+      "spend": 94.03,
+      "impressions": 5791,
+      "clicks": 180,
+      "ctr": 3.108271,
+      "cpc": 0.522389,
       "leads": 6,
-      "cost_per_lead": 15.253333333333332
+      "cost_per_lead": 15.671666666666667
     },
     {
       "date": "2026-08-25",
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "[MKT][LEADS][MANTA] - AGO26",
       "adset": "",
-      "spend": 69.3,
-      "impressions": 1773,
+      "spend": 70.8,
+      "impressions": 1822,
       "clicks": 59,
-      "ctr": 3.327693,
-      "cpc": 1.174576,
+      "ctr": 3.2382,
+      "cpc": 1.2,
       "leads": 2,
-      "cost_per_lead": 34.65
+      "cost_per_lead": 35.4
     },
     {
       "date": "2026-08-25",
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "[MKT][VIEW][MANTA] - AGO26",
       "adset": "",
-      "spend": 6.11,
-      "impressions": 5474,
+      "spend": 6.45,
+      "impressions": 5755,
       "clicks": 6,
-      "ctr": 0.109609,
-      "cpc": 1.018333,
+      "ctr": 0.104257,
+      "cpc": 1.075,
       "leads": 0,
       "cost_per_lead": null
     }
