@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T11:26:38.548Z",
+  "generated_at": "2026-08-26T11:54:19.063Z",
   "source": "cv-crm",
   "total_leads": 2049,
   "leads": [
@@ -36,7 +36,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-08-26 07:50:29",
-      "data_vencimento": "2026-08-26 08:50:30",
+      "data_vencimento": "2026-08-26 09:50:00",
       "ultima_data_conversao": "2026-08-26 07:50:29",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
@@ -100,8 +100,8 @@
     },
     {
       "id": 2072,
-      "situacao_id": 1,
-      "situacao": "ENTRADA /  LEAD NOVO",
+      "situacao_id": 13,
+      "situacao": "DESCARTADO",
       "origem": "Facebook",
       "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -119,8 +119,8 @@
     },
     {
       "id": 2071,
-      "situacao_id": 1,
-      "situacao": "ENTRADA /  LEAD NOVO",
+      "situacao_id": 12,
+      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
       "origem": "Facebook",
       "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -138,8 +138,8 @@
     },
     {
       "id": 2070,
-      "situacao_id": 1,
-      "situacao": "ENTRADA /  LEAD NOVO",
+      "situacao_id": 12,
+      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
       "origem": "Facebook",
       "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -157,8 +157,8 @@
     },
     {
       "id": 2069,
-      "situacao_id": 1,
-      "situacao": "ENTRADA /  LEAD NOVO",
+      "situacao_id": 12,
+      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
       "origem": "Facebook",
       "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
