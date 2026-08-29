@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T21:13:42.295Z",
+  "generated_at": "2026-08-29T23:18:41.040Z",
   "source": "meta-marketing-api",
   "days_back": 90,
   "rows": [
@@ -6574,9 +6574,9 @@
       "campaign": "00 - INTERESSES - TESTE DE CRIATIVOS",
       "adset": "",
       "spend": 37.21,
-      "impressions": 1213,
+      "impressions": 1216,
       "clicks": 31,
-      "ctr": 2.555647,
+      "ctr": 2.549342,
       "cpc": 1.200323,
       "leads": 4,
       "cost_per_lead": 9.3025
@@ -6600,7 +6600,7 @@
       "campaign": "[MKT][VIEW][MANTA] - AGO26",
       "adset": "",
       "spend": 4.93,
-      "impressions": 3612,
+      "impressions": 3616,
       "clicks": 0,
       "ctr": 0,
       "cpc": 0,
