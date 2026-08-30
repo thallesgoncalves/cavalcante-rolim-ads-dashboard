@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T12:23:43.818Z",
+  "generated_at": "2026-08-30T19:33:19.578Z",
   "source": "meta-marketing-api",
   "days_back": 90,
   "rows": [
@@ -6561,9 +6561,9 @@
       "campaign": "[MKT][LEADS][MANTA] - 10/07/26",
       "adset": "",
       "spend": 36.33,
-      "impressions": 529,
+      "impressions": 530,
       "clicks": 18,
-      "ctr": 3.402647,
+      "ctr": 3.396226,
       "cpc": 2.018333,
       "leads": 1,
       "cost_per_lead": 36.33
