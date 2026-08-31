@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T13:39:53.469Z",
+  "generated_at": "2026-08-31T19:39:09.703Z",
   "source": "meta-marketing-api",
   "days_back": 90,
   "rows": [
@@ -6601,6 +6601,19 @@
       "adset": "",
       "spend": 4.94,
       "impressions": 3622,
+      "clicks": 0,
+      "ctr": 0,
+      "cpc": 0,
+      "leads": 0,
+      "cost_per_lead": null
+    },
+    {
+      "date": "2026-08-31",
+      "account": "CA - Manta Design by Pininfarina",
+      "campaign": "[MKT][WPP][MANTA] - AGO26",
+      "adset": "",
+      "spend": 0,
+      "impressions": 0,
       "clicks": 0,
       "ctr": 0,
       "cpc": 0,
