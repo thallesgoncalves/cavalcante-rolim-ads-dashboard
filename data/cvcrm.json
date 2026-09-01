@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T12:14:46.207Z",
+  "generated_at": "2026-09-01T19:35:45.210Z",
   "source": "cv-crm",
   "total_leads": 2098,
   "leads": [
@@ -22,8 +22,8 @@
     },
     {
       "id": 2125,
-      "situacao_id": 14,
-      "situacao": "QUALIFICADO / QUENTE",
+      "situacao_id": 9,
+      "situacao": "Visita Agendada",
       "origem": "Painel Gestor",
       "midia_principal": null,
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -457,8 +457,8 @@
     },
     {
       "id": 2102,
-      "situacao_id": 14,
-      "situacao": "QUALIFICADO / QUENTE",
+      "situacao_id": 9,
+      "situacao": "Visita Agendada",
       "origem": "Facebook",
       "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -4010,8 +4010,8 @@
     },
     {
       "id": 1915,
-      "situacao_id": 14,
-      "situacao": "QUALIFICADO / QUENTE",
+      "situacao_id": 9,
+      "situacao": "Visita Agendada",
       "origem": "Facebook",
       "midia_principal": null,
       "corretor": "Thallyta Baltazar de Almeida Costa",
