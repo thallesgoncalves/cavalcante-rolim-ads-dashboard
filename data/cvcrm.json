@@ -1,8 +1,160 @@
 {
-  "generated_at": "2026-09-16T14:57:17.384Z",
+  "generated_at": "2026-09-16T18:34:32.659Z",
   "source": "cv-crm",
-  "total_leads": 2329,
+  "total_leads": 2336,
   "leads": [
+    {
+      "id": 2364,
+      "situacao_id": 1,
+      "situacao": "ENTRADA /  LEAD NOVO",
+      "origem": "Facebook",
+      "midia_principal": "Facebook Ads",
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-09-16 15:22:58",
+      "data_vencimento": "2026-09-16 16:22:58",
+      "ultima_data_conversao": "2026-09-16 15:22:58",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
+    {
+      "id": 2363,
+      "situacao_id": 1,
+      "situacao": "ENTRADA /  LEAD NOVO",
+      "origem": "Facebook",
+      "midia_principal": null,
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-09-16 15:08:05",
+      "data_vencimento": "2026-09-16 16:08:05",
+      "ultima_data_conversao": "2026-09-16 15:08:05",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
+    {
+      "id": 2362,
+      "situacao_id": 12,
+      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
+      "origem": "Facebook",
+      "midia_principal": null,
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-09-16 13:50:37",
+      "data_vencimento": "2026-09-16 14:50:38",
+      "ultima_data_conversao": "2026-09-16 13:50:37",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
+    {
+      "id": 2361,
+      "situacao_id": 1,
+      "situacao": "ENTRADA /  LEAD NOVO",
+      "origem": "Facebook",
+      "midia_principal": "Facebook Ads",
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-09-16 13:30:49",
+      "data_vencimento": "2026-09-16 15:32:11",
+      "ultima_data_conversao": "2026-09-16 13:30:49",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
+    {
+      "id": 2360,
+      "situacao_id": 1,
+      "situacao": "ENTRADA /  LEAD NOVO",
+      "origem": "Facebook",
+      "midia_principal": "Facebook Ads",
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-09-16 13:30:48",
+      "data_vencimento": "2026-09-16 15:32:10",
+      "ultima_data_conversao": "2026-09-16 13:30:48",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
+    {
+      "id": 2359,
+      "situacao_id": 1,
+      "situacao": "ENTRADA /  LEAD NOVO",
+      "origem": "Facebook",
+      "midia_principal": "Facebook Ads",
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-09-16 13:15:57",
+      "data_vencimento": "2026-09-16 16:21:26",
+      "ultima_data_conversao": "2026-09-16 13:15:57",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
+    {
+      "id": 2358,
+      "situacao_id": 1,
+      "situacao": "ENTRADA /  LEAD NOVO",
+      "origem": "Facebook",
+      "midia_principal": "Facebook Ads",
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-09-16 13:15:56",
+      "data_vencimento": "2026-09-16 16:26:25",
+      "ultima_data_conversao": "2026-09-16 13:25:46",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
+    {
+      "id": 2357,
+      "situacao_id": 1,
+      "situacao": "ENTRADA /  LEAD NOVO",
+      "origem": "Facebook",
+      "midia_principal": null,
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-09-16 11:56:23",
+      "data_vencimento": "2026-09-16 16:02:12",
+      "ultima_data_conversao": "2026-09-16 11:56:23",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
     {
       "id": 2356,
       "situacao_id": 1,
@@ -17,7 +169,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-09-16 11:30:52",
-      "data_vencimento": "2026-09-16 12:30:52",
+      "data_vencimento": "2026-09-16 15:41:26",
       "ultima_data_conversao": "2026-09-16 11:30:52",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
@@ -14793,25 +14945,6 @@
       "data_cad": "2026-01-15 03:14:38",
       "data_vencimento": null,
       "ultima_data_conversao": "2026-01-15 03:14:38",
-      "qtde_simulacoes_associadas": 0,
-      "qtde_reservas_associadas": 0
-    },
-    {
-      "id": 1577,
-      "situacao_id": 3,
-      "situacao": "Perdido",
-      "origem": "Facebook",
-      "midia_principal": null,
-      "corretor": "Renato Vidal",
-      "empreendimentos": [
-        "Pininfarina"
-      ],
-      "score": 100,
-      "valor_negocio": 0,
-      "possibilidade_venda": null,
-      "data_cad": "2026-01-15 01:14:45",
-      "data_vencimento": null,
-      "ultima_data_conversao": "2026-01-15 01:14:45",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
     },
