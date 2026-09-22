@@ -1,8 +1,27 @@
 {
-  "generated_at": "2026-09-22T15:05:47.371Z",
+  "generated_at": "2026-09-22T18:52:04.985Z",
   "source": "cv-crm",
-  "total_leads": 2433,
+  "total_leads": 2434,
   "leads": [
+    {
+      "id": 2462,
+      "situacao_id": 12,
+      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
+      "origem": "Tráfego Direto",
+      "midia_principal": null,
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-09-22 13:54:52",
+      "data_vencimento": "2026-09-22 14:59:06",
+      "ultima_data_conversao": "2026-09-22 13:59:06",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
     {
       "id": 2461,
       "situacao_id": 12,
