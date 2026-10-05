@@ -1,8 +1,65 @@
 {
-  "generated_at": "2026-10-05T01:57:34.854Z",
+  "generated_at": "2026-10-05T08:00:43.914Z",
   "source": "cv-crm",
-  "total_leads": 2656,
+  "total_leads": 2659,
   "leads": [
+    {
+      "id": 2687,
+      "situacao_id": 1,
+      "situacao": "ENTRADA /  LEAD NOVO",
+      "origem": "Facebook",
+      "midia_principal": "Facebook Ads",
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina - Obra"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-10-05 00:24:49",
+      "data_vencimento": "2026-10-05 09:24:00",
+      "ultima_data_conversao": "2026-10-05 00:24:49",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
+    {
+      "id": 2686,
+      "situacao_id": 1,
+      "situacao": "ENTRADA /  LEAD NOVO",
+      "origem": "Facebook",
+      "midia_principal": "Facebook Ads",
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina - Obra"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-10-04 23:14:02",
+      "data_vencimento": "2026-10-05 09:14:00",
+      "ultima_data_conversao": "2026-10-04 23:14:02",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
+    {
+      "id": 2685,
+      "situacao_id": 1,
+      "situacao": "ENTRADA /  LEAD NOVO",
+      "origem": "Facebook",
+      "midia_principal": "Facebook Ads",
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina - Obra"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-10-04 22:58:54",
+      "data_vencimento": "2026-10-05 09:58:00",
+      "ultima_data_conversao": "2026-10-04 22:58:54",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
     {
       "id": 2684,
       "situacao_id": 1,
