@@ -1,8 +1,46 @@
 {
-  "generated_at": "2026-10-07T13:23:25.101Z",
+  "generated_at": "2026-10-07T19:26:34.958Z",
   "source": "cv-crm",
-  "total_leads": 2700,
+  "total_leads": 2702,
   "leads": [
+    {
+      "id": 2730,
+      "situacao_id": 18,
+      "situacao": "CORRETORES",
+      "origem": "Facebook",
+      "midia_principal": "Facebook Ads",
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina - Obra"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-10-07 15:10:25",
+      "data_vencimento": "2026-10-07 16:10:25",
+      "ultima_data_conversao": "2026-10-07 15:10:25",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
+    {
+      "id": 2729,
+      "situacao_id": 18,
+      "situacao": "CORRETORES",
+      "origem": "Facebook",
+      "midia_principal": "Facebook Ads",
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina - Obra"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-10-07 13:25:23",
+      "data_vencimento": "2026-10-07 14:25:23",
+      "ultima_data_conversao": "2026-10-07 13:25:23",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
     {
       "id": 2728,
       "situacao_id": 17,
@@ -24,8 +62,8 @@
     },
     {
       "id": 2727,
-      "situacao_id": 1,
-      "situacao": "ENTRADA /  LEAD NOVO",
+      "situacao_id": 13,
+      "situacao": "DESCARTADO",
       "origem": "Facebook",
       "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -36,7 +74,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-10-07 09:05:24",
-      "data_vencimento": "2026-10-07 11:07:19",
+      "data_vencimento": "2026-10-07 14:16:29",
       "ultima_data_conversao": "2026-10-07 09:05:24",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
@@ -3647,8 +3685,8 @@
     },
     {
       "id": 2536,
-      "situacao_id": 12,
-      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
+      "situacao_id": 13,
+      "situacao": "DESCARTADO",
       "origem": "Facebook",
       "midia_principal": null,
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -3704,8 +3742,8 @@
     },
     {
       "id": 2533,
-      "situacao_id": 12,
-      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
+      "situacao_id": 17,
+      "situacao": "REATIVAÇÃO / FRIO",
       "origem": "Facebook",
       "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -3723,8 +3761,8 @@
     },
     {
       "id": 2532,
-      "situacao_id": 12,
-      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
+      "situacao_id": 13,
+      "situacao": "DESCARTADO",
       "origem": "Facebook",
       "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -3780,8 +3818,8 @@
     },
     {
       "id": 2529,
-      "situacao_id": 12,
-      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
+      "situacao_id": 13,
+      "situacao": "DESCARTADO",
       "origem": "Facebook",
       "midia_principal": null,
       "corretor": "Thallyta Baltazar de Almeida Costa",
