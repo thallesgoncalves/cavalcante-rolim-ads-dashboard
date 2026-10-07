@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T19:24:58.546Z",
+  "generated_at": "2026-10-07T23:38:20.435Z",
   "source": "meta-marketing-api",
   "days_back": 90,
   "rows": [
@@ -8016,13 +8016,13 @@
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "[MKT][LEADS][MANTA] - AGO26",
       "adset": "",
-      "spend": 84.89,
-      "impressions": 5966,
+      "spend": 84.93,
+      "impressions": 5967,
       "clicks": 120,
-      "ctr": 2.011398,
-      "cpc": 0.707417,
+      "ctr": 2.011061,
+      "cpc": 0.70775,
       "leads": 4,
-      "cost_per_lead": 21.2225
+      "cost_per_lead": 21.2325
     },
     {
       "date": "2026-10-06",
@@ -8042,39 +8042,39 @@
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "[MKT][LEADS][MANTA] - 10/07/26",
       "adset": "",
-      "spend": 63.33,
-      "impressions": 2266,
-      "clicks": 71,
-      "ctr": 3.133274,
-      "cpc": 0.891972,
+      "spend": 69.9,
+      "impressions": 2413,
+      "clicks": 73,
+      "ctr": 3.02528,
+      "cpc": 0.957534,
       "leads": 6,
-      "cost_per_lead": 10.555
+      "cost_per_lead": 11.65
     },
     {
       "date": "2026-10-07",
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "00 - INTERESSES - TESTE DE CRIATIVOS",
       "adset": "",
-      "spend": 60.54,
-      "impressions": 3954,
-      "clicks": 104,
-      "ctr": 2.630248,
-      "cpc": 0.582115,
-      "leads": 2,
-      "cost_per_lead": 30.27
+      "spend": 70.68,
+      "impressions": 4300,
+      "clicks": 117,
+      "ctr": 2.72093,
+      "cpc": 0.604103,
+      "leads": 5,
+      "cost_per_lead": 14.136000000000001
     },
     {
       "date": "2026-10-07",
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "[MKT][LEADS][MANTA] - AGO26",
       "adset": "",
-      "spend": 54.58,
-      "impressions": 2728,
-      "clicks": 53,
-      "ctr": 1.942815,
-      "cpc": 1.029811,
+      "spend": 57.82,
+      "impressions": 2835,
+      "clicks": 55,
+      "ctr": 1.940035,
+      "cpc": 1.051273,
       "leads": 2,
-      "cost_per_lead": 27.29
+      "cost_per_lead": 28.91
     },
     {
       "date": "2026-10-07",
@@ -8082,9 +8082,9 @@
       "campaign": "[MKT][VIEW][MANTA] - AGO26",
       "adset": "",
       "spend": 4.38,
-      "impressions": 4022,
+      "impressions": 4023,
       "clicks": 1,
-      "ctr": 0.024863,
+      "ctr": 0.024857,
       "cpc": 4.38,
       "leads": 0,
       "cost_per_lead": null
