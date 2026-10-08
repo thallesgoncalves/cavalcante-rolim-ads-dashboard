@@ -1,12 +1,31 @@
 {
-  "generated_at": "2026-10-08T16:57:42.361Z",
+  "generated_at": "2026-10-08T21:41:06.173Z",
   "source": "cv-crm",
-  "total_leads": 2706,
+  "total_leads": 2707,
   "leads": [
     {
+      "id": 2735,
+      "situacao_id": 13,
+      "situacao": "DESCARTADO",
+      "origem": "Facebook",
+      "midia_principal": null,
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina - Obra"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-10-08 17:14:34",
+      "data_vencimento": "2026-10-08 18:14:34",
+      "ultima_data_conversao": "2026-10-08 17:14:34",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
+    {
       "id": 2734,
-      "situacao_id": 1,
-      "situacao": "ENTRADA /  LEAD NOVO",
+      "situacao_id": 18,
+      "situacao": "CORRETORES",
       "origem": "Facebook",
       "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -17,7 +36,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-10-08 12:55:04",
-      "data_vencimento": "2026-10-08 13:55:05",
+      "data_vencimento": "2026-10-08 14:56:37",
       "ultima_data_conversao": "2026-10-08 12:55:04",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
@@ -3001,8 +3020,8 @@
     },
     {
       "id": 2576,
-      "situacao_id": 12,
-      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
+      "situacao_id": 17,
+      "situacao": "REATIVAÇÃO / FRIO",
       "origem": "Facebook",
       "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
