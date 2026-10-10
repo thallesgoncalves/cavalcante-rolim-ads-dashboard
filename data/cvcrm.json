@@ -1,8 +1,27 @@
 {
-  "generated_at": "2026-10-10T15:20:55.208Z",
+  "generated_at": "2026-10-10T19:25:15.641Z",
   "source": "cv-crm",
-  "total_leads": 2713,
+  "total_leads": 2714,
   "leads": [
+    {
+      "id": 2742,
+      "situacao_id": 12,
+      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
+      "origem": "Facebook",
+      "midia_principal": "Facebook Ads",
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina - Obra"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-10-10 14:10:03",
+      "data_vencimento": "2026-10-10 15:10:03",
+      "ultima_data_conversao": "2026-10-10 14:10:03",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
     {
       "id": 2741,
       "situacao_id": 12,
