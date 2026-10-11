@@ -1,8 +1,27 @@
 {
-  "generated_at": "2026-10-11T18:57:11.566Z",
+  "generated_at": "2026-10-11T22:35:57.766Z",
   "source": "cv-crm",
-  "total_leads": 2717,
+  "total_leads": 2718,
   "leads": [
+    {
+      "id": 2746,
+      "situacao_id": 1,
+      "situacao": "ENTRADA /  LEAD NOVO",
+      "origem": "Facebook",
+      "midia_principal": "Facebook Ads",
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina - Obra"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-10-11 18:29:39",
+      "data_vencimento": "2026-10-12 09:29:00",
+      "ultima_data_conversao": "2026-10-11 18:29:39",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
     {
       "id": 2745,
       "situacao_id": 1,
@@ -17,7 +36,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-10-11 14:55:21",
-      "data_vencimento": "2026-10-11 15:55:21",
+      "data_vencimento": "2026-10-12 09:01:00",
       "ultima_data_conversao": "2026-10-11 14:55:21",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
@@ -36,7 +55,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-10-10 21:09:06",
-      "data_vencimento": "2026-10-11 16:11:54",
+      "data_vencimento": "2026-10-12 09:21:00",
       "ultima_data_conversao": "2026-10-10 21:09:06",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
@@ -55,7 +74,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-10-10 20:44:28",
-      "data_vencimento": "2026-10-11 16:01:23",
+      "data_vencimento": "2026-10-12 09:07:00",
       "ultima_data_conversao": "2026-10-10 20:44:28",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
