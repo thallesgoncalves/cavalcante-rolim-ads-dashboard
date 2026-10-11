@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T07:26:34.136Z",
+  "generated_at": "2026-10-11T14:16:40.856Z",
   "source": "cv-crm",
   "total_leads": 2716,
   "leads": [
@@ -17,7 +17,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-10-10 21:09:06",
-      "data_vencimento": "2026-10-11 09:09:00",
+      "data_vencimento": "2026-10-11 12:11:37",
       "ultima_data_conversao": "2026-10-10 21:09:06",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
@@ -36,7 +36,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-10-10 20:44:28",
-      "data_vencimento": "2026-10-11 09:44:00",
+      "data_vencimento": "2026-10-11 11:52:05",
       "ultima_data_conversao": "2026-10-10 20:44:28",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
