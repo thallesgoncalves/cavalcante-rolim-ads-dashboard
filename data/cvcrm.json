@@ -1,8 +1,27 @@
 {
-  "generated_at": "2026-10-15T16:56:29.420Z",
+  "generated_at": "2026-10-15T20:08:03.045Z",
   "source": "cv-crm",
-  "total_leads": 2737,
+  "total_leads": 2738,
   "leads": [
+    {
+      "id": 2766,
+      "situacao_id": 18,
+      "situacao": "CORRETORES",
+      "origem": "Facebook",
+      "midia_principal": null,
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina - Obra"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-10-15 14:44:44",
+      "data_vencimento": "2026-10-15 15:44:44",
+      "ultima_data_conversao": "2026-10-15 14:44:44",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
     {
       "id": 2765,
       "situacao_id": 12,
@@ -100,8 +119,8 @@
     },
     {
       "id": 2760,
-      "situacao_id": 12,
-      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
+      "situacao_id": 13,
+      "situacao": "DESCARTADO",
       "origem": "Facebook",
       "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -195,8 +214,8 @@
     },
     {
       "id": 2755,
-      "situacao_id": 12,
-      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
+      "situacao_id": 18,
+      "situacao": "CORRETORES",
       "origem": "Facebook",
       "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -2207,8 +2226,8 @@
     },
     {
       "id": 2649,
-      "situacao_id": 12,
-      "situacao": "CADÊNCIA / TENTATIVA  DE CONTATO",
+      "situacao_id": 13,
+      "situacao": "DESCARTADO",
       "origem": "Facebook",
       "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
