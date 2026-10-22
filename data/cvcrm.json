@@ -1,8 +1,46 @@
 {
-  "generated_at": "2026-10-21T22:34:47.890Z",
+  "generated_at": "2026-10-22T00:54:25.860Z",
   "source": "cv-crm",
-  "total_leads": 2765,
+  "total_leads": 2768,
   "leads": [
+    {
+      "id": 2795,
+      "situacao_id": 1,
+      "situacao": "ENTRADA /  LEAD NOVO",
+      "origem": "Facebook",
+      "midia_principal": "Facebook Ads",
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina - Obra"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-10-21 21:26:41",
+      "data_vencimento": "2026-10-21 22:26:41",
+      "ultima_data_conversao": "2026-10-21 21:26:41",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
+    {
+      "id": 2794,
+      "situacao_id": 1,
+      "situacao": "ENTRADA /  LEAD NOVO",
+      "origem": "Facebook",
+      "midia_principal": null,
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina - Obra"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-10-21 21:12:06",
+      "data_vencimento": "2026-10-21 22:12:06",
+      "ultima_data_conversao": "2026-10-21 21:12:06",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
     {
       "id": 2793,
       "situacao_id": 1,
@@ -46657,6 +46695,25 @@
       "data_cad": "2025-08-31 11:35:37",
       "data_vencimento": null,
       "ultima_data_conversao": "2025-09-30 15:10:37",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
+    {
+      "id": 324,
+      "situacao_id": 4,
+      "situacao": "FUTURA COMPRA",
+      "origem": "Facebook",
+      "midia_principal": null,
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina - Obra"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": 3,
+      "data_cad": "2025-08-31 10:00:54",
+      "data_vencimento": null,
+      "ultima_data_conversao": "2025-08-31 10:00:54",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
     },
