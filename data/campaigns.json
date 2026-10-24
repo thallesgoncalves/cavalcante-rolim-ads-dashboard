@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T00:51:31.711Z",
+  "generated_at": "2026-10-24T05:10:55.683Z",
   "source": "meta-marketing-api",
   "days_back": 90,
   "rows": [
@@ -4727,39 +4727,65 @@
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "[MKT][LEADS][MANTA] - 10/07/26",
       "adset": "",
-      "spend": 17.26,
-      "impressions": 500,
+      "spend": 22.73,
+      "impressions": 583,
       "clicks": 14,
-      "ctr": 2.8,
-      "cpc": 1.232857,
+      "ctr": 2.401372,
+      "cpc": 1.623571,
       "leads": 2,
-      "cost_per_lead": 8.63
+      "cost_per_lead": 11.365
     },
     {
       "date": "2026-10-23",
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "00 - INTERESSES - TESTE DE CRIATIVOS",
       "adset": "",
-      "spend": 24.54,
-      "impressions": 996,
+      "spend": 24.61,
+      "impressions": 1002,
       "clicks": 39,
-      "ctr": 3.915663,
-      "cpc": 0.629231,
+      "ctr": 3.892216,
+      "cpc": 0.631026,
       "leads": 2,
-      "cost_per_lead": 12.27
+      "cost_per_lead": 12.305
     },
     {
       "date": "2026-10-23",
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "[MKT][LEADS][MANTA] - AGO26",
       "adset": "",
-      "spend": 15.31,
-      "impressions": 249,
-      "clicks": 8,
-      "ctr": 3.212851,
-      "cpc": 1.91375,
+      "spend": 16.86,
+      "impressions": 266,
+      "clicks": 9,
+      "ctr": 3.383459,
+      "cpc": 1.873333,
       "leads": 1,
-      "cost_per_lead": 15.31
+      "cost_per_lead": 16.86
+    },
+    {
+      "date": "2026-10-24",
+      "account": "CA - Manta Design by Pininfarina",
+      "campaign": "[MKT][LEADS][MANTA] - 10/07/26",
+      "adset": "",
+      "spend": 0.34,
+      "impressions": 22,
+      "clicks": 1,
+      "ctr": 4.545455,
+      "cpc": 0.34,
+      "leads": 0,
+      "cost_per_lead": null
+    },
+    {
+      "date": "2026-10-24",
+      "account": "CA - Manta Design by Pininfarina",
+      "campaign": "00 - INTERESSES - TESTE DE CRIATIVOS",
+      "adset": "",
+      "spend": 1.18,
+      "impressions": 33,
+      "clicks": 0,
+      "ctr": 0,
+      "cpc": 0,
+      "leads": 0,
+      "cost_per_lead": null
     }
   ]
 }
