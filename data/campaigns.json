@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T18:59:23.955Z",
+  "generated_at": "2026-10-25T21:28:20.468Z",
   "source": "meta-marketing-api",
   "days_back": 90,
   "rows": [
@@ -4649,13 +4649,13 @@
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "00 - INTERESSES - TESTE DE CRIATIVOS",
       "adset": "",
-      "spend": 38.79,
-      "impressions": 1525,
+      "spend": 38.8,
+      "impressions": 1526,
       "clicks": 49,
-      "ctr": 3.213115,
-      "cpc": 0.791633,
+      "ctr": 3.211009,
+      "cpc": 0.791837,
       "leads": 1,
-      "cost_per_lead": 38.79
+      "cost_per_lead": 38.8
     },
     {
       "date": "2026-10-24",
@@ -4675,24 +4675,24 @@
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "[MKT][LEADS][MANTA] - 10/07/26",
       "adset": "",
-      "spend": 15.49,
-      "impressions": 624,
-      "clicks": 24,
-      "ctr": 3.846154,
-      "cpc": 0.645417,
-      "leads": 2,
-      "cost_per_lead": 7.745
+      "spend": 20.13,
+      "impressions": 831,
+      "clicks": 35,
+      "ctr": 4.211793,
+      "cpc": 0.575143,
+      "leads": 4,
+      "cost_per_lead": 5.0325
     },
     {
       "date": "2026-10-25",
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "00 - INTERESSES - TESTE DE CRIATIVOS",
       "adset": "",
-      "spend": 23.86,
-      "impressions": 1507,
-      "clicks": 49,
-      "ctr": 3.251493,
-      "cpc": 0.486939,
+      "spend": 28.41,
+      "impressions": 1817,
+      "clicks": 63,
+      "ctr": 3.467254,
+      "cpc": 0.450952,
       "leads": 0,
       "cost_per_lead": null
     },
@@ -4701,11 +4701,11 @@
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "[MKT][LEADS][MANTA] - AGO26",
       "adset": "",
-      "spend": 23.62,
-      "impressions": 949,
+      "spend": 23.86,
+      "impressions": 952,
       "clicks": 23,
-      "ctr": 2.423604,
-      "cpc": 1.026957,
+      "ctr": 2.415966,
+      "cpc": 1.037391,
       "leads": 0,
       "cost_per_lead": null
     }
