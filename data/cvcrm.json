@@ -1,8 +1,27 @@
 {
-  "generated_at": "2026-10-25T16:11:50.667Z",
+  "generated_at": "2026-10-25T19:00:42.529Z",
   "source": "cv-crm",
-  "total_leads": 2779,
+  "total_leads": 2780,
   "leads": [
+    {
+      "id": 2808,
+      "situacao_id": 1,
+      "situacao": "ENTRADA /  LEAD NOVO",
+      "origem": "Facebook",
+      "midia_principal": "Facebook Ads",
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina - Obra"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-10-25 15:49:12",
+      "data_vencimento": "2026-10-25 16:49:12",
+      "ultima_data_conversao": "2026-10-25 15:49:12",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
     {
       "id": 2807,
       "situacao_id": 1,
@@ -17,7 +36,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-10-25 03:54:08",
-      "data_vencimento": "2026-10-25 14:01:35",
+      "data_vencimento": "2026-10-25 16:06:33",
       "ultima_data_conversao": "2026-10-25 03:54:08",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
@@ -36,7 +55,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-10-24 22:29:27",
-      "data_vencimento": "2026-10-25 13:46:18",
+      "data_vencimento": "2026-10-25 16:51:38",
       "ultima_data_conversao": "2026-10-24 22:29:27",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
@@ -55,7 +74,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-10-23 20:39:04",
-      "data_vencimento": "2026-10-25 13:06:24",
+      "data_vencimento": "2026-10-25 16:16:31",
       "ultima_data_conversao": "2026-10-23 20:39:04",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
@@ -74,7 +93,7 @@
       "valor_negocio": 0,
       "possibilidade_venda": null,
       "data_cad": "2026-10-23 20:14:08",
-      "data_vencimento": "2026-10-25 13:51:37",
+      "data_vencimento": "2026-10-25 16:01:36",
       "ultima_data_conversao": "2026-10-23 20:14:08",
       "qtde_simulacoes_associadas": 0,
       "qtde_reservas_associadas": 0
