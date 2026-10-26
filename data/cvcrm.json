@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T19:34:04.570Z",
+  "generated_at": "2026-10-26T23:20:34.320Z",
   "source": "cv-crm",
   "total_leads": 2784,
   "leads": [
@@ -2277,8 +2277,8 @@
     },
     {
       "id": 2692,
-      "situacao_id": 14,
-      "situacao": "QUALIFICADO / QUENTE",
+      "situacao_id": 4,
+      "situacao": "FUTURA COMPRA",
       "origem": "Facebook",
       "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -5693,8 +5693,8 @@
     },
     {
       "id": 2512,
-      "situacao_id": 14,
-      "situacao": "QUALIFICADO / QUENTE",
+      "situacao_id": 4,
+      "situacao": "FUTURA COMPRA",
       "origem": "Não Definido",
       "midia_principal": null,
       "corretor": "Thallyta Baltazar de Almeida Costa",
@@ -7323,8 +7323,8 @@
     },
     {
       "id": 2426,
-      "situacao_id": 14,
-      "situacao": "QUALIFICADO / QUENTE",
+      "situacao_id": 4,
+      "situacao": "FUTURA COMPRA",
       "origem": "Facebook",
       "midia_principal": "Facebook Ads",
       "corretor": "Thallyta Baltazar de Almeida Costa",
