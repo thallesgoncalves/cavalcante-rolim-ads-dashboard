@@ -1,8 +1,27 @@
 {
-  "generated_at": "2026-10-26T01:27:14.653Z",
+  "generated_at": "2026-10-26T06:35:27.619Z",
   "source": "cv-crm",
-  "total_leads": 2782,
+  "total_leads": 2783,
   "leads": [
+    {
+      "id": 2811,
+      "situacao_id": 1,
+      "situacao": "ENTRADA /  LEAD NOVO",
+      "origem": "Facebook",
+      "midia_principal": "Facebook Ads",
+      "corretor": "Thallyta Baltazar de Almeida Costa",
+      "empreendimentos": [
+        "Pininfarina - Obra"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-10-25 23:04:40",
+      "data_vencimento": "2026-10-26 09:04:00",
+      "ultima_data_conversao": "2026-10-25 23:04:40",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 0
+    },
     {
       "id": 2810,
       "situacao_id": 1,
