@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T18:58:37.827Z",
+  "generated_at": "2026-10-27T22:50:26.780Z",
   "source": "meta-marketing-api",
   "days_back": 90,
   "rows": [
@@ -4441,8 +4441,8 @@
       "account": "CA - Manta Design by Pininfarina",
       "campaign": "[MKT][LEADS][MANTA] - 10/07/26",
       "adset": "",
-      "spend": 0.36,
-      "impressions": 15,
+      "spend": 0.37,
+      "impressions": 16,
       "clicks": 0,
       "ctr": 0,
       "cpc": 0,
