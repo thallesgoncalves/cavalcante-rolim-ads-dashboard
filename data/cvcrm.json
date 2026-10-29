@@ -1,8 +1,27 @@
 {
-  "generated_at": "2026-10-29T09:04:29.206Z",
+  "generated_at": "2026-10-29T16:04:40.382Z",
   "source": "cv-crm",
-  "total_leads": 2784,
+  "total_leads": 2785,
   "leads": [
+    {
+      "id": 2813,
+      "situacao_id": 5,
+      "situacao": "Com Reserva",
+      "origem": "Painel Gestor",
+      "midia_principal": null,
+      "corretor": "MARCOS ANDRE MENDES LIMA",
+      "empreendimentos": [
+        "Pininfarina - Obra"
+      ],
+      "score": 66,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-10-29 10:30:40",
+      "data_vencimento": null,
+      "ultima_data_conversao": "2026-10-29 10:30:40",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 2
+    },
     {
       "id": 2812,
       "situacao_id": 17,
@@ -30303,8 +30322,8 @@
     },
     {
       "id": 1216,
-      "situacao_id": 3,
-      "situacao": "Perdido",
+      "situacao_id": 5,
+      "situacao": "Com Reserva",
       "origem": "Painel Gestor",
       "midia_principal": null,
       "corretor": "CAVALCANTE E ROLIM EMPREENDIMENTOS LTDA",
@@ -30318,7 +30337,7 @@
       "data_vencimento": null,
       "ultima_data_conversao": "2025-12-19 13:59:43",
       "qtde_simulacoes_associadas": 0,
-      "qtde_reservas_associadas": 3
+      "qtde_reservas_associadas": 4
     },
     {
       "id": 1215,
