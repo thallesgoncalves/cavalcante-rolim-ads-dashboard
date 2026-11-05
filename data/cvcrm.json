@@ -1,8 +1,27 @@
 {
-  "generated_at": "2026-11-05T08:42:00.881Z",
+  "generated_at": "2026-11-05T16:50:30.817Z",
   "source": "cv-crm",
-  "total_leads": 2785,
+  "total_leads": 2786,
   "leads": [
+    {
+      "id": 2814,
+      "situacao_id": 5,
+      "situacao": "Com Reserva",
+      "origem": "Painel Gestor",
+      "midia_principal": null,
+      "corretor": "Leticia Zani",
+      "empreendimentos": [
+        "Pininfarina - Obra"
+      ],
+      "score": 100,
+      "valor_negocio": 0,
+      "possibilidade_venda": null,
+      "data_cad": "2026-11-05 12:05:31",
+      "data_vencimento": null,
+      "ultima_data_conversao": "2026-11-05 12:05:31",
+      "qtde_simulacoes_associadas": 0,
+      "qtde_reservas_associadas": 1
+    },
     {
       "id": 2813,
       "situacao_id": 5,
